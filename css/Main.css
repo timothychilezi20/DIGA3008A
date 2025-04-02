@@ -31,3 +31,11 @@ border-color: blue;
 .navlinks a :hover{
  color: red;
 }
+
+.logo{
+    font-family: sans-serif;
+}
+
+nav{
+    background: #784625; 
+}
