@@ -1,5 +1,5 @@
 nav{
-    background: #784625;
+    background: #938977;
     backdrop-filter: blur(7px);
     height: 100px; 
     width: 100%; 
@@ -98,6 +98,48 @@ a.active{
    }
 }
 
+footer{
+    background: #938977; 
+}
+
+footer ul li{
+    display: flex;
+    margin: 20px 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li a{
+    font-size: 15px;
+    color:#f7f7f7; 
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 15px; 
+    color: #f7f7f7; 
+}
+
+@media (hover:hover){
+    footer ul li a :hover{
+        color: black;
+    }
+}
+
+.welcome {
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    border: 0.5em solid black; 
+
+    width: 10em; 
+    height: 10em; 
+
+    border-radius: 100%; 
+}
 
 
 
+
+ 
