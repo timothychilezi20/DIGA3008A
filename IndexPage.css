@@ -1,3 +1,7 @@
+body{
+    margin: 0px; 
+}
+
 nav{
     background: #938977;
     backdrop-filter: blur(7px);
@@ -40,10 +44,15 @@ nav ul li a{
     text-decoration: none;
 }
 
-a.active{  
-    color: black;
+nav ul li a:hover{
+    color: black; 
+}
+
+nav ul li a.active {  
     padding: 10px 30px;
     border-radius: 50px;
+    font-weight: 600px;
+    color: black; 
 }
 
 #logo{
@@ -100,6 +109,29 @@ a.active{
 
 footer{
     background: #938977; 
+    align-items: center;
+    padding: 30px 20px;
+    text-align: center;
+    color: var(#f7f7f7); 
+}
+
+.footer-links{
+    list-style: none; 
+    padding: 0; 
+    margin: 0 0 20px 0; 
+    display: flex; 
+    justify-content: center;
+    gap: 20px; 
+}
+
+.footer-links li a:hover{
+    transform: scale(1.2); 
+    color: #f7f7f7; 
+}
+
+.footer p{
+    font-size: 14px; 
+    margin-top: 10px; 
 }
 
 footer ul li{
@@ -115,9 +147,8 @@ footer ul li a{
     text-decoration: none;
 }
 
-footer p{
-    font-size: 15px; 
-    color: #f7f7f7; 
+footer ul li{
+    padding: 0px 20px; 
 }
 
 @media (hover:hover){
@@ -127,17 +158,25 @@ footer p{
 }
 
 .welcome {
-    text-align: center; 
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    border: 0.5em solid black; 
+  position: relative;
+  height: 600px; 
+  background: url('DesignSectionStuff/Images/WritingImageforWebsite.jpg') center/cover no-repeat; 
+  color:#f7f7f7;
+  overflow: hidden;
+  font-size: 80px;
 
-    width: 10em; 
-    height: 10em; 
-
-    border-radius: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
 }
+
+
+
+
+
+
+
 
 
 
