@@ -7,6 +7,7 @@ nav{
     backdrop-filter: blur(7px);
     height: 100px; 
     width: 100%; 
+    position: sticky; 
 }
 
 .logo{
@@ -28,6 +29,8 @@ nav{
     font-family: "Arimo";
     src: url(Arimo-VariableFont_wght.ttf)
 }
+
+
 nav ul{
    float: right;
    margin-right: 40px; 
