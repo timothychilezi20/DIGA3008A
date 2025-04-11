@@ -1,9 +1,5 @@
-body{
-    margin: 0px; 
-}
-
 header{
-    position: fixed; 
+    position: static; 
 }
 
 nav{
@@ -175,23 +171,3 @@ footer ul li{
         color: black;
     }
 }
-
-.welcome {
-  position: relative;
-  height: 600px; 
-  background: url('//DesignSectionStuff/Images/WritingImageforWebsite.jpg') center/cover no-repeat; 
-  color:#f7f7f7;
-  overflow: hidden;
-  font-size: 80px;
-
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  text-align: center; 
-}
-
-
-
-
-
- 
