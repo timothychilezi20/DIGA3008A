@@ -1,7 +1,7 @@
 .welcome {
   position: relative;
   height: 600px; 
-  background: url('DesignSectionStuff/Images/WritingImageforWebsite.jpg') center/cover no-repeat; 
+  background-image: url("DesignSectionStuff/Images/WritingImageforWebsite.jpg") center/cover no-repeat; 
   color:#f7f7f7;
   overflow: hidden;
   font-size: 80px;
