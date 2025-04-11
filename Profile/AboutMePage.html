@@ -6,13 +6,29 @@
     <title>About Me Page</title>
     <meta name="author" content="Timothy Chilezi">
     <meta name="description" content="This page is dedicated to My Personal Information and Contact Details!">
+    <link rel="stylesheet" href="../css/Main.css">
+    <link rel="stylesheet" href="../css/Normalize.css">
+    <script src="https://kit.fontawesome.com/dddfa338de.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <Header>
-    <h1>
-        Timothy Chilezi
-    </h1>
-    <h3>Student at University of Witwatersrand, Johannesburg</h3>
+    <article class="Welcome">
+
+        <nav>
+            <input type="checkbox" name="" id="check">
+            <label for="check" class="ThreeBars"><i class="fa-solid fa-bars"></i></label>
+            <label for="logo" class="logo">Timothy Chilezi</label>
+            <img src="DesignSectionStuff/Images/Logo.jpg" id="logo">
+            <ul>
+                <li><a href= "../Blogs/BlogHomePage.html">Blog Page</a> </li>
+                <li>Profile</li>
+                <li><a href= "../DesignSection/DesignHomepage.html">Design Section</a></li>
+                <li><a href= "../Essays/EssaysHomepage.html">Essays Section</a></li>
+                <li><a href= "../Portfolio/Portfolio.html"> Portfolio </a></li> 
+                <li><a href="css/Styling.html">CSS Work</a></li>
+            </ul>
+        </nav>
+        </article>
 </Header>
 
 <section id="about-me">
@@ -57,15 +73,31 @@
     
 </body>
 
-<footer>
-    <p>
+<footer class="footer">
+    <ul class="footer-links">
+        <li>
+            <a href u-email="mailto:timothychilezi@gmail.com">timothychilezi@gmail.com
+            <i class="fa-solid fa-envelope"></i>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.linkedin.com/in/timothy-chilezi-8b7ba8351/" target="_blank">LinkedIn
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://github.com/timothychilezi20" target="_blank">GitHub
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </li>
+        
+    </ul>
+
+
+    <p class="copyright">
         Timothy Chilezi (2025). All Rights Reserved.
     </p>
-
-    <ul>
-        <li><a class="u-url" href="mailto:timothychilezi@gmail.com">timothychilezi@gmail.com</a></li>
-        <li><a class="u-url" href="https://www.linkedin.com/in/timothy-chilezi-8b7ba8351/" target="_blank">LinkedIn</a></li>
-        <li><a class="u-url" href="https://github.com/timothychilezi20" target="_blank">GitHub</a></li>
-    </ul>
 </footer>
 </html>
