@@ -1,13 +1,11 @@
-body{
-    margin: 0px; 
-}
-
-
 nav{
     background: #938977;
-    backdrop-filter: blur(7px);
-    height: 100px; 
+    padding: 20px;
+    position: sticky;
     width: 100%;
+    height: 70px; 
+    z-index: 50;
+    top: 0px;
 }
 
 .logo{
@@ -15,24 +13,24 @@ nav{
  font-size: 20px; 
  font-weight: normal;
  line-height: 100px;
- margin: 20px 50px;
+ margin: 10px 30px;
  padding: 10px 30px; 
  font-family: "Arimo";
 }
 
 @font-face{
     font-family: "Abril Fatface";
-    src: url(Fonts/AbrilFatface-Regular.ttf)
+    src: url(../Fonts/AbrilFatface-Regular.ttf)
 }
 
 @font-face{
     font-family: "Arimo";
-    src: url(Fonts/Arimo-VariableFont_wght.ttf)
+    src: url(../Fonts/Arimo-VariableFont_wght.ttf)
 }
 
 @font-face{
     font-family: "Montserrat";
-    src: url(Fonts/Montserrat-VariableFont_wght.ttf)
+    src: url(../Fonts/Montserrat-VariableFont_wght.ttf)
 }
 
 
@@ -43,7 +41,8 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    margin: 20px 8px;
+    margin-right: 20px;
+    margin-top: 10px; 
 }
 
 nav ul li a{

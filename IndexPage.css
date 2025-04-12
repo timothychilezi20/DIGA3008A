@@ -1,6 +1,7 @@
-.welcome {
+.Welcome {
   position: relative;
   height: 600px; 
+  background: url('DesignSectionStuff/Images/WritingImageforWebsite.jpg') center/cover no-repeat; 
   color:#f7f7f7;
   overflow: hidden;
   font-size: 80px;
@@ -11,12 +12,6 @@
   text-align: center; 
 }
 
-body{
-  background-image: url('/DesignSectionStuff/Images/WritingImageforWebsite.jpg');
-  background-size: cover ;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 
 
