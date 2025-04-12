@@ -1,0 +1,29 @@
+.AboutMe{
+    background-color: #bba987;
+    padding: 150px 90px;
+    scroll-margin-top: 99px;
+    position: relative;
+}
+
+.about-me{
+   
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-me h2{
+    font-size: 80px;
+    background-image: url('../DesignSectionStuff/Images/AboutMeImage.jpg') no-repeat center center;
+    margin: 0;
+    padding: 0 60px;
+    font-family: 'Montserrat';
+}
+
+@font-face{
+    font-family: "Montserrat";
+    src: url(../Fonts/Montserrat-VariableFont_wght.ttf)
+}
