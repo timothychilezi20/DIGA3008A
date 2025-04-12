@@ -94,7 +94,7 @@ nav ul li a.active {
   nav ul{
     position: fixed; 
     width: 100%; 
-    background-color: black;
+    background-color:#3e3e3e;;
     height: 100vh; 
     text-align: center;
     top: 60px; 
@@ -171,7 +171,7 @@ footer ul li{
 
 @media (hover:hover){
     footer ul li a :hover{
-        color: black;
+        color:#3e3e3e;;
     }
 }
 
