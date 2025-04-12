@@ -4,8 +4,9 @@
   background: url('DesignSectionStuff/Images/WritingImageforWebsite.jpg') center/cover no-repeat; 
   color:#f7f7f7;
   overflow: hidden;
-  font-size: 80px;
+  font-size: 60px;
   font-family: "Montserrat";
+  font-weight: bold;
 
   display: flex; 
   justify-content: center; 
@@ -24,6 +25,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #3e3e3e;
 }
 
 .blog-column {

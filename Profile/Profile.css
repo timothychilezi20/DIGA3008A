@@ -22,7 +22,7 @@
 
 .about-me
 {
-    background: url('../DesignSectionStuff/Images/AboutMeImage.jpg') no-repeat center center;
+    background: url('../DesignSectionStuff/Images/BlogsImage.jpg') no-repeat center center;
     background-size: cover;
     height: 600px;
     display: flex;
@@ -101,7 +101,7 @@ profile-content h2{
 .profile-content p {
     font-size: 18px;
     line-height: 1.6;
-    color:#3e3e3e;;
+    color:#3e3e3e;
     margin-bottom: 16px;
     align-items: center;
    text-align: center; 
