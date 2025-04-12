@@ -6,8 +6,8 @@
 }
 
 .about-me{
-   
     background-size: cover;
+    background: url('../DesignSectionStuff/Images/AboutMeImage.jpg') no-repeat center center;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -17,7 +17,6 @@
 
 .about-me h2{
     font-size: 80px;
-    background-image: url('../DesignSectionStuff/Images/AboutMeImage.jpg') no-repeat center center;
     margin: 0;
     padding: 0 60px;
     font-family: 'Montserrat';
