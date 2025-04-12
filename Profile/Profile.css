@@ -6,9 +6,8 @@
 }
 
 .about-me{
-    background-size: cover;
     background: url('../DesignSectionStuff/Images/AboutMeImage.jpg') no-repeat center center;
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
