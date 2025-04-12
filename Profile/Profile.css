@@ -12,11 +12,12 @@
 
 .Heading
 {
-    font-family: 'Abril Fatface';
+    font-family: 'Montserrat';
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 32px;
+    font-weight: bold;
 }
 
 .about-me

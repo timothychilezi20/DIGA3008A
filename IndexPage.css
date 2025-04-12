@@ -5,11 +5,63 @@
   color:#f7f7f7;
   overflow: hidden;
   font-size: 80px;
+  font-family: "Montserrat";
 
   display: flex; 
   justify-content: center; 
   align-items: center; 
   text-align: center;
+  margin-top: 5%; 
+}
+
+.Description
+{
+    background-color: #afa491;
+    padding: 150px 90px;
+    scroll-margin-top: 99px;
+    position: relative;
+    font-family: 'Montserrat';
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.blog-column {
+  background-color: #fef9ec;
+  background-color: var(--light);
+  padding: 90px 90px;
+  scroll-margin-top: 99px;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  display: flex;
+}
+
+.blog-pic{
+  margin-left: 10%;
+  width: 350px; 
+  border-radius: 8px; 
+  object-fit: cover; 
+  box-shadow: 0 4px px rgba(0, 0, 0, 0.15); 
+}
+
+.profile-page{
+  background-color: #fef9ec;
+  background-color: var(--light);
+  padding: 90px 90px;
+  scroll-margin-top: 99px;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  display: flex;
+}
+
+.profile-pic{
+  margin-left: 10%;
+  width: 350px; 
+  border-radius: 8px; 
+  object-fit: cover; 
+  box-shadow: 0 4px px rgba(0, 0, 0, 0.15); 
 }
 
 

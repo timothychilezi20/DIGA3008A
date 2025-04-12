@@ -1,0 +1,16 @@
+.Blogs{
+    position: relative;
+    height: 600px; 
+    background: url('') center/cover no-repeat; 
+    color:#f7f7f7;
+    overflow: hidden;
+    font-size: 80px;
+    font-family: "Montserrat";
+  
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-top: 5%; 
+  }
+  
