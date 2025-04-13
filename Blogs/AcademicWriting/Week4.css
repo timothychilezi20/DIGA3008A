@@ -1,0 +1,30 @@
+.DateandHeading{
+    position: relative;
+    height: 600px; 
+    background: url('../../DesignSectionStuff/Images/Week4Image2.jpg') center/cover no-repeat; 
+    overflow: hidden;
+    color: #f7f7f7;
+    font-size: 80px;
+    font-family: "Montserrat";
+  
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-top: 5%; 
+}
+
+.DateandHeading h2{
+    text-shadow: 2px 2px 6px rbga(90, 66, 51, 0.2);
+}
+
+.datetime{
+    text-shadow: 2px 2px 6px rbga(90, 66, 51, 0.2);
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat'; 
+    background-color: #fefaf3;
+    color: #3e3e3e;
+}

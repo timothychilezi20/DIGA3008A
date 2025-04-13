@@ -43,6 +43,7 @@
     align-items: center;
     text-align: center;
     font-family: 'Montserrat';
+    text-shadow: 2px 2px 6px rbga(90, 66, 51, 0.2);
 }
 
 @font-face
