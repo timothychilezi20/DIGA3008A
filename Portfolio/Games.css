@@ -57,6 +57,7 @@ h2 {
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
+    padding: 40px 20px;
 }
 
 .portfolio-item {
