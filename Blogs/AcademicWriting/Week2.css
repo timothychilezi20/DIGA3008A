@@ -92,3 +92,38 @@ body {
   align-items: center; 
   text-align: center;
 }
+
+.numbers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 40px;
+  padding: 20px 0;
+  font-family: 'Georgia', serif;
+ }
+
+ .numbers a{
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+ }
+
+ .numbers a:hover{
+  background-color: #e9dccd;
+ }
+
+ .numbers a.active{
+  background-color: #d1bfa7;
+  color: white;
+  font-weight: bold;
+ }
+
+ .numbers .arrow{
+  font-weight: bold;
+ }
