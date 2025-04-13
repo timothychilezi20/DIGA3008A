@@ -1,7 +1,7 @@
 .Blogs{
     position: relative;
     height: 600px; 
-    background: url('../../DesignSectionStuff/Images/BlogPicture.jpg') center/cover no-repeat; 
+    background: url('../Portfolio/Drawings.css') center/cover no-repeat; 
     overflow: hidden;
     color: #f7f7f7;
     font-size: 80px;
