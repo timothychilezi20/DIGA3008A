@@ -114,17 +114,18 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
    }
 
-   .numbers{
+   .Numbers{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    gap: 30px;
     margin-top: 40px;
     padding: 20px 0;
-    font-family: 'Georgia', serif;
+    font-family: 'Montserrat'; 
+    flex-wrap: wrap; 
    }
 
-   .numbers a{
+   .Numbers a{
     text-decoration: none;
     color: #5a4233;
     background-color: #fdf6ec;
@@ -133,18 +134,24 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
     font-weight: 500;
+    min-width: 40px; 
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
    }
 
-   .numbers a:hover{
+   .Numbers a:hover{
     background-color: #e9dccd;
    }
 
-   .numbers a.active{
+   .Numbers a.active{
     background-color: #d1bfa7;
     color: white;
     font-weight: bold;
    }
 
-   .numbers .arrow{
+   .Numbers .arrow{
     font-weight: bold;
+    background-color: #d3c3ae; 
+    color: #fff; 
    }
