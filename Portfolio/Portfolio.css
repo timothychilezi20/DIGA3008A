@@ -22,3 +22,16 @@
     font-family: 'Montserrat';
     color: aliceblue;
 }
+
+.Description
+{
+    background-color: #afa491;
+    padding: 150px 90px;
+    scroll-margin-top: 99px;
+    position: relative;
+    font-family: 'Montserrat';
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #3e3e3e;
+}
