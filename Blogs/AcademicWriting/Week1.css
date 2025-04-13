@@ -22,5 +22,90 @@ body {
 }
 
 .GitHubSetup{
-  padding: 80px 60px; 
+  display: flex;
+  flex-direction:column;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 80px 80px; 
+  margin: 40px ; 
+}
+
+.Reflections{
+  display: flex;
+  flex-direction:column;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 80px 80px; 
+  margin: 40px 40px; 
+}
+
+.WebHistory{
+  display: flex;
+  flex-direction:column;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 80px 80px; 
+  margin: 40px 40px; 
+}
+
+.Goals{
+  display: flex;
+  flex-direction:column;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 80px 80px; 
+  margin: 40px 40px; 
+}
+
+.heading{
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+
+
+
+.blog-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  font-family: 'Montserrat';
+}
+
+.blog-content a {
+  text-decoration: none;
+  color: #5a4233;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Montserrat';
+}
+
+.blog-content a:hover {
+  text-decoration: solid;
+}
+
+@media (max-width: 768px) {
+  .blog-item {
+      flex-direction: column;
+      max-width: 100%;
+  }
+
+  .blog-item img,
+  .blog-content {
+      width: 100%;
+  }
 }
