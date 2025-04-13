@@ -79,7 +79,8 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     border-radius: 12px;
     overflow: hidden;
-    max-width: 1000px;
+    max-width: 1200px;
+    margin: 40px 40px; 
   }
   
   .blog-item img {
