@@ -49,14 +49,14 @@ h2 {
     letter-spacing: 1px;
 }
 
-.blog-grid {
+.portfolio-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
 }
 
-.blog-item {
+.portfolio-item {
     display: flex;
     flex-direction: row;
     background-color: #fff;
@@ -66,12 +66,12 @@ h2 {
     max-width: 550px;
 }
 
-.blog-item img {
+.portfolio-item img {
     width: 50%;
     object-fit: cover;
 }
 
-.blog-content {
+.portfolio-content {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@ h2 {
     width: 50%;
 }
 
-.blog-content a {
+.portfolio-content a {
     text-decoration: none;
     color: #5a4233;
     font-size: 1.2em;
@@ -87,7 +87,7 @@ h2 {
     font-family: 'Montserrat';
 }
 
-.blog-content a:hover {
+.portfolio-content a:hover {
     text-decoration: underline;
 }
 
