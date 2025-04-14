@@ -38,3 +38,37 @@ body {
   font-weight: bold;
   font-size: large;
 }
+
+.asset {
+    position: relative;
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .asset img,
+  .asset video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .asset video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .asset:hover video {
+    opacity: 1;
+  }
+  
+  .asset:hover img {
+    opacity: 0;
+  }
