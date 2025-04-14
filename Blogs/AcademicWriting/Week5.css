@@ -1,0 +1,263 @@
+.design
+{
+    background: url('../DesignSectionStuff/Images/DesignImage.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%; 
+}
+
+.design h2
+{
+    font-size: 80px;
+    margin: 0;
+    padding: 0 60px;
+    padding-bottom: 40px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.DateandHeading h2{
+    text-shadow: 2px 2px 6px rbga(90, 66, 51, 0.2);
+}
+
+.datetime{
+    text-shadow: 2px 2px 6px rbga(90, 66, 51, 0.2);
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat'; 
+    background-color: #fefaf3;
+    color: #3e3e3e;
+}
+
+.Interface{
+    display: flex;
+    flex-direction:column;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px 40px; 
+}
+
+.Icons{
+    display: flex;
+    flex-direction:column;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px 40px; 
+}
+  
+  .heading{
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+  }
+
+  .blog-item {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 40px 40px; 
+  }
+  
+  .blog-item img {
+    width: 50%;
+    object-fit: cover;
+  }
+  
+  .blog-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    font-family: 'Montserrat';
+  }
+  
+  .blog-content a {
+    text-decoration: none;
+    color: #5a4233;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Montserrat';
+  }
+  
+  .blog-content a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .blog-item {
+        flex-direction: column;
+        max-width: 100%;
+    }
+  
+    .blog-item img,
+    .blog-content {
+        width: 100%;
+    }
+  }
+
+  @font-face
+{
+  font-family: "Abril Fatface";
+  src: url(../Fonts/AbrilFatface-Regular.ttf)
+}
+
+@font-face
+{
+  font-family: "Arimo";
+  src: url(../Fonts/Arimo-VariableFont_wght.ttf)
+}
+
+  .StyleProcess{
+    display: flex;
+  flex-direction:column;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 80px 80px; 
+  margin: 40px ; 
+  }
+
+  .Russet{
+    display: flex;
+    flex-direction:column;
+    background-color: #784625;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px ; 
+  }
+
+  .Russet .heading{
+    color: #f7f7f7; 
+  }
+
+  .Russet p{
+    color: #f7f7f7; 
+  }
+
+  .Seasalt{
+    display: flex;
+    flex-direction:column;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px ; 
+  }
+
+  .Black{
+    display: flex;
+    flex-direction:column;
+    background-color: black;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px ; 
+  }
+
+  .Black .heading{
+    color: #f7f7f7; 
+  }
+
+  .Black p{
+    color: #f7f7f7; 
+  }
+
+  .FrenchGray{
+    display: flex;
+    flex-direction:column;
+    background-color: #abb0c0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px ; 
+  }
+
+  .DavysGray{
+    display: flex;
+    flex-direction:column;
+    background-color: #49474f;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px ; 
+  }
+
+  .DavysGray .heading{
+    color: #f7f7f7; 
+  }
+
+  .DavysGray p{
+    color: #f7f7f7; 
+  }
+
+  .AbrilHeader{
+    font-family: 'Abril Fatface';
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ArimoHeader{
+    font-family: 'Arimo';
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Fonts{
+    display: flex;
+    flex-direction:column;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px ; 
+  }
+
+  .Header{
+    display: flex;
+    flex-direction:column;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px ; 
+  }
