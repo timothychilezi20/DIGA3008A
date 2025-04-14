@@ -1,6 +1,6 @@
-.design
+.DateandHeading
 {
-    background: url('../DesignSectionStuff/Images/DesignImage.jpeg') no-repeat center center;
+    background: url('../../DesignSectionStuff/Images/DesignImage.jpeg') no-repeat center center;
     background-size: cover;
     height: 600px;
     display: flex;
