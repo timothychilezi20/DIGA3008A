@@ -2,7 +2,7 @@
 {
     position: relative;
     height: 600px; 
-    background: url('../../DesignSectionStuff/Images/Week7.jpg') center/cover no-repeat; 
+    background: url('../../DesignSectionStuff/Images/Week7Picture.jpg') center/cover no-repeat; 
     overflow: hidden;
     color: #f7f7f7;
     font-size: 80px;
@@ -120,3 +120,5 @@ body {
     background-color: #d3c3ae; 
     color: #fff; 
    }
+
+   
