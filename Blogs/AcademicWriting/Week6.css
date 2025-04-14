@@ -204,6 +204,18 @@ body {
     margin: 40px ; 
   }
 
+  .Black{
+    display: flex;
+    flex-direction:column;
+    background-color: #000000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px ; 
+  }
+
   .Seasalt{
         display: flex;
         flex-direction:column;
