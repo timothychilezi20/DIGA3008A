@@ -39,7 +39,7 @@ body {
   font-size: large;
 }
 
-.asset {
+.assets {
     position: relative;
     width: 300px;
     height: auto;
@@ -48,8 +48,8 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
   
-  .asset img,
-  .asset video {
+  .assets img,
+  .assets video {
     width: 100%;
     height: auto;
     display: block;
@@ -57,7 +57,7 @@ body {
     transition: opacity 0.3s ease;
   }
   
-  .asset video {
+  .assets video {
     position: absolute;
     top: 0;
     left: 0;
@@ -65,10 +65,10 @@ body {
     pointer-events: none;
   }
   
-  .asset:hover video {
+  .assets:hover video {
     opacity: 1;
   }
   
-  .asset:hover img {
+  .assets:hover img {
     opacity: 0;
   }
