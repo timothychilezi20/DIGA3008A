@@ -120,6 +120,18 @@ body {
     padding: 80px 80px; 
     margin: 40px 40px; 
 }
+
+.Wireframe{
+    display: flex;
+    flex-direction:column;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px 40px; 
+}
   
   .heading{
     justify-content: center; 
@@ -252,4 +264,16 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .image{
+    display: flex;
+        flex-direction:column;
+        background-color: #f7f7f7;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        border-radius: 10px;
+        overflow: hidden;
+        max-width: 100%;
+        padding: 80px 80px; 
+        margin: 40px ; 
   }
