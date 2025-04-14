@@ -52,59 +52,29 @@ h2 {
     letter-spacing: 1px;
 }
 
-.portfolio-grid {
+.art-and-writing{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
     justify-content: center;
-    padding: 40px 20px;
+    gap: 40px;
+    padding: 40px;
 }
 
-.portfolio-item {
-    display: flex;
-    flex-direction: row;
-    background-color: #fff;
+.art{
+    background-color: #fffaf2;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     border-radius: 12px;
     overflow: hidden;
-    max-width: 550px;
-}
-
-.portfolio-item img {
-    width: 50%;
-    object-fit: cover;
-}
-
-.portfolio-content {
+    max-width: 300px;
+    text-align: center;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
 }
 
-.portfolio-content a {
-    text-decoration: none;
-    color: #5a4233;
-    font-size: 1.2em;
-    font-weight: bold;
-    font-family: 'Montserrat';
-}
-
-.portfolio-content a:hover {
-    text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-    .blog-item {
-        flex-direction: column;
-        max-width: 100%;
-    }
-
-    .blog-item img,
-    .blog-content {
-        width: 100%;
-    }
+.art img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 @font-face
