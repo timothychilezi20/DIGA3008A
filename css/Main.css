@@ -76,7 +76,7 @@ nav ul li a.active {
     font-size: 30px; 
     color: #f7f7f7; 
     float: right; 
-    margin-right: 40x; 
+    margin-right: 10%; 
     line-height: 80px; 
     cursor: pointer;
     display: none; 
@@ -109,7 +109,7 @@ nav ul li a.active {
    }
 
    nav ul li a{
-    font-size: 25px; 
+    font-size: 16px; 
     color:#f7f7f7; 
     text-transform: initial;
    }
