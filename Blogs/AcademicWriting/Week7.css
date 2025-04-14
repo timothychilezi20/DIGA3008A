@@ -1,0 +1,67 @@
+.DateandHeading
+{
+    position: relative;
+    height: 600px; 
+    background: url('../../DesignSectionStuff/Images/DesignImage.jpeg') center/cover no-repeat; 
+    overflow: hidden;
+    color: #f7f7f7;
+    font-size: 80px;
+    font-family: "Montserrat";
+  
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-top: 5%; 
+}
+
+.DateandHeading h2{
+    text-shadow: 2px 2px 6px rbga(90, 66, 51, 0.2);
+}
+
+.datetime{
+    text-shadow: 2px 2px 6px rbga(90, 66, 51, 0.2);
+}
+
+.Intro{
+    display: flex;
+    flex-direction:column;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px ; 
+  }
+
+  .Pros{
+    display: flex;
+    flex-direction:column;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px ; 
+  }
+
+  .Cons{
+    display: flex;
+    flex-direction:column;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 80px 80px; 
+    margin: 40px ; 
+  }
+
+  .images{
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+   }
