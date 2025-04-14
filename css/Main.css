@@ -12,10 +12,10 @@ nav{
  color: #f7f7f7;
  font-size: 20px; 
  font-weight: normal;
- line-height: 100px;
- margin: 5px 40px;
- padding: 5px 40px; 
+ line-height: 50px;
+ padding: 20px 20px; 
  font-family: "Arimo";
+ margin: 10px 0 -50px -20px;
 }
 
 @font-face{
@@ -69,7 +69,7 @@ nav ul li a.active {
 
 #logo{
     width: 60px; 
-    margin: 0 0 -25px -80px;
+    margin: 0 0 -21px -20px;
 }
 
 .ThreeBars{
@@ -111,7 +111,7 @@ nav ul li a.active {
    nav ul li a{
     font-size: 25px; 
     color:#f7f7f7; 
-    text-transform: uppercase;
+    text-transform: initial;
    }
 
    #check:checked ~ ul{
