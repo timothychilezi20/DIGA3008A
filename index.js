@@ -1,18 +1,48 @@
-var num1 = 50; 
+//Conditionals control behaviour in JavaScript
+let randomNumber = Math.floor(Math.random() * 20);
+console.log(randomNumber);
 
-let sentence = "My name is Timothy!"; 
+if (randomNumber < 20){
+    console.log("Too low, try again!");
+} else if (randomNumber === 20){
+    console.log("Equal");
+}
+else {
+    console.log("Too High, Try Again");
+}
 
-const constant = false; 
-constant = true; 
-console.log(constant); 
+//Switch
+let day = "Christmas";
 
-//Object literal syntax
-let car = {speed: 300, model: "Dodge"}; 
-console.log(car.model); 
+switch(day){
+    case "Sunday":
+        console.log("Happy Sunday!");
+        break;
+    case "Spoon":
+        console.log("That is not a day!");
+        break;
+    default:
+    console.log("It must be a special day");
+}
 
-randomNumber = Math.random(); 
-console.log(randomNumber); 
+function getRandomNumber(){
+    let random = Math.floor(Math.random() * 10); 
+    console.log(random); 
+}
 
-//DOM Object
-window.alert("Hello I am JavaScript"); 
-document.writeln(<h1>Hello, I come from JavaScript!</h1>); 
+//call 
+getRandomNumber(); 
+
+function getRandomNumberTwo(num){
+    let random = Math.floor(Math.random() * num); 
+    console.log(random); 
+}
+
+getRandomNumberTwo(200);
+
+function getRandomNumberThree(num){
+    let random = Math.floor(Math.random() * num);
+    return random;
+}
+
+console.log(getRandomNumberThree()); 
