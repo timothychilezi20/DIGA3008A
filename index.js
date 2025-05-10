@@ -46,3 +46,14 @@ function getRandomNumberThree(num){
 }
 
 console.log(getRandomNumberThree()); 
+
+var human = {
+    age: 30, 
+    height: 2, 
+    career: "lawyer",
+    walk: function() {
+        console.log("walking"); 
+    }
+}
+
+human.age = 40; 
