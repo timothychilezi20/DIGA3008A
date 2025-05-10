@@ -1,19 +1,13 @@
-function exercise1(Length, Width){
-  let Length = 5;
-  let Width = 5;
+console.log("Dumb!"); 
 
-  let Area = Length * Width;
-  return Area;
+function exercise1(length, width){
+ let length = 10; 
+ let width = 5; 
+
+ let Area = length * width; 
+ return Area;
 }
 
 function exercise2(){
-  let int1 = 20; 
-  let int2 = 10; 
-
-  if (int1 === int2){
-    return sum*3; 
-  }
-  else{
-    return sum; 
-  }
+  
 }
