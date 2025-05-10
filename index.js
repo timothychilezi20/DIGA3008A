@@ -15,4 +15,4 @@ console.log(randomNumber);
 
 //DOM Object
 window.alert("Hello I am JavaScript"); 
-document.write(<h1>Hello, I come from JavaScript!</h1>); 
+document.writeln(<h1>Hello, I come from JavaScript!</h1>); 
