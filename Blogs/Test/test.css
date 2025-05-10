@@ -2,7 +2,7 @@ body{
     background: rgb(48, 48, 48); 
 }
 
-container {
+.container {
     margin: 0 auto; 
     height: 50vh; 
     width: 50%; 
