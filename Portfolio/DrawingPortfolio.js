@@ -3,26 +3,35 @@ document.addEventListener("DOMContentLoaded", function () {
 
         images.forEach(img => {
             const wrapper = document.createElement("div");
-
             wrapper.classList.add("letterbox-wrapper"); 
+            img.parentNode.insertBefore(wrapper, img);
+            wrapper.append(img);
 
-            wrapper.style.position = "relative";
-        wrapper.style.width = "100%";
-        wrapper.style.maxWidth = "500px";
-        wrapper.style.aspectRatio = "16 / 9";
-        wrapper.style.backgroundColor = "black";
-        wrapper.style.display = "flex";
-        wrapper.style.alignItems = "center";
-        wrapper.style.justifyContent = "center";
-        wrapper.style.margin = "auto";
-        wrapper.style.overflow = "hidden";
+            img.addEventListener("click", () => {
+                images.forEach(i => i.classList.remove("selected")); 
+                img.classList.add("selected");
+                selectedImageSrc = img.src;
+            })
+        });
+    });
 
-        img.style.maxWidth = "100%";
-        img.style.maxHeight = "100%";
-        img.style.objectFit = "contain";
+    document.getElementById("view-button").addEventListener("click", () => {
+        if (!selectedImageSrc) {
+            alert("Click an image to select it first");
+            return;
+        }
 
-        const parent = img.parentNode; 
-        parent.insertBefore(wrapper, img);
-        wrapper.appendChild(img);
+        document.getElementById("view-button").addEventListener("click ", () => {
+            if(!selectedImageSrc){
+                alert("Click an image to select it first.");
+                return;
+            }
+
+            document.getElementById("lightbox-image").src = selectedImageSrc;
+            document.getElementById("lightbox-overlay").classList.remove("hidden");
+        });
+
+        document.getElementById("lightbox-close").addEventListener("click", () =>{
+            document.getElementById("lightbox-overlay").classList.add("hidden");
         });
     });
