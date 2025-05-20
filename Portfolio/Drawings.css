@@ -82,3 +82,16 @@ h2 {
     font-family: "Montserrat";
     src: url(../../Fonts/Montserrat-VariableFont_wght.ttf)
 }
+
+.letterbox-wrapper {
+    position: relative; 
+    width: 100%;
+    max-width: 500px; 
+    aspect-ratio: 16/9;
+    background-color: #3e3e3e;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: auto; 
+    overflow: hidden;
+}
