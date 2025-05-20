@@ -83,69 +83,46 @@ h2 {
     src: url(../../Fonts/Montserrat-VariableFont_wght.ttf)
 }
 
-.letterbox-wrapper {
-    position: relative; 
-    width: 100%;
-    max-width: 500px; 
-    aspect-ratio: 16/9;
-    background-color: #3e3e3e;
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-    margin: auto; 
-    overflow: hidden;
-}
-
-.letterbox-image {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain; 
-    cursor: pointer; 
-    transition: outline 0.2s ease; 
-}
-
-.letterbox-image.selected {
-    outline: 4px solid limegreen;
-    border-radius: 4px;
-}
-
 #lightbox-overlay {
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    width: 100vw; 
-    height: 100vh; 
-    background: rgba(0,0,0,0.09);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.85);
     display: flex;
-    align-items: center; 
-    justify-content: center; 
-    z-index: 1000; 
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
 }
 
-.lightbox-content{
+#lightbox-overlay.hidden {
+    display: none;
+}
+
+.lightbox-content {
     position: relative;
     max-width: 90%;
-    max-height: 90%; 
+    max-height: 90%;
 }
 
-.lightbox-content img{
+#lightbox-image {
     max-width: 100%;
     max-height: 100%;
-    border-radius: 8px; 
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
 #lightbox-close {
     position: absolute;
     top: -20px;
     right: -20px;
-    font-size: 30px;
-    color: white;
-    background: black;
+    background: white;
+    color: black;
     border-radius: 50%;
     padding: 5px 12px;
+    font-size: 24px;
+    font-weight: bold;
     cursor: pointer;
-}
-
-.hidden {
-    display: none;
+    box-shadow: 0 0 5px #000;
 }

@@ -1,37 +1,34 @@
-document.addEventListener("DOMContentLoaded", function () {
-        const images = document.querySelectorAll(".letterbox-image"); 
+document.addEventListener("DOMContentLoaded", () => {
+    const images = document.querySelectorAll('.letterbox-image');
+    const lightboxOverlay = document.getElementById('lightbox-overlay');
+    const lightboxImage = document.getElementById('lightbox-image');
+    const closeBtn = document.getElementById('lightbox-close');
 
-        images.forEach(img => {
-            const wrapper = document.createElement("div");
-            wrapper.classList.add("letterbox-wrapper"); 
-            img.parentNode.insertBefore(wrapper, img);
-            wrapper.append(img);
-
-            img.addEventListener("click", () => {
-                images.forEach(i => i.classList.remove("selected")); 
-                img.classList.add("selected");
-                selectedImageSrc = img.src;
-            })
+    images.forEach(img => {
+        img.addEventListener('click', () => {
+            lightboxImage.src = img.src;
+            lightboxOverlay.classList.remove('hidden');
         });
     });
 
-    document.getElementById("view-button").addEventListener("click", () => {
-        if (!selectedImageSrc) {
-            alert("Click an image to select it first");
-            return;
+    closeBtn.addEventListener('click', () => {
+        lightboxOverlay.classList.add('hidden');
+        lightboxImage.src = '';
+    });
+
+    
+    lightboxOverlay.addEventListener('click', (e) => {
+        if (e.target === lightboxOverlay) {
+            lightboxOverlay.classList.add('hidden');
+            lightboxImage.src = '';
         }
-
-        document.getElementById("view-button").addEventListener("click ", () => {
-            if(!selectedImageSrc){
-                alert("Click an image to select it first.");
-                return;
-            }
-
-            document.getElementById("lightbox-image").src = selectedImageSrc;
-            document.getElementById("lightbox-overlay").classList.remove("hidden");
-        });
-
-        document.getElementById("lightbox-close").addEventListener("click", () =>{
-            document.getElementById("lightbox-overlay").classList.add("hidden");
-        });
     });
+
+   
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            lightboxOverlay.classList.add('hidden');
+            lightboxImage.src = '';
+        }
+    });
+});
