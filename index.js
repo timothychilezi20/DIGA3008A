@@ -47,3 +47,11 @@ if (nextBtn && prevBtn){
 
 setInterval(nextSlide, 5000);
 });
+
+const slides = document.querySelectorAll('.slide');
+
+slides.forEach(slide => {
+    const h1 = slide.querySelector('h1');
+    h1.style.color = '#fff';
+    h1.style.textShadow = '2px 2px 10px rgba(0, 0, 0, 0.8)';
+});
