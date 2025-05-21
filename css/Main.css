@@ -140,7 +140,11 @@ footer{
     margin: 0 auto 20px auto; 
     display: flex; 
     justify-content: center;
-    gap: 5px; 
+    gap: 5px;
+}
+
+.footer-links li a{
+    
 }
 
 .footer-links li a:hover{
@@ -198,7 +202,7 @@ footer ul li{
     border-radius: 50%;
     font-size: 20px;
     cursor: pointer;
-    display: none; /* Hidden by default */
+    display: none; 
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 

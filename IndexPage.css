@@ -1,35 +1,57 @@
-.Welcome {
-  position: relative;
-  height: 600px; 
-  background: url('DesignSectionStuff/Images/WritingImageforWebsite.jpg') center/cover no-repeat; 
-  color:#f7f7f7;
+.slider {
+  position: relative; 
+  height: 600px;
   overflow: hidden;
-  font-size: 60px;
+  margin-top: 5%;
   font-family: "Montserrat";
   font-weight: bold;
+}
 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+  font-size: 60px;
   text-align: center;
-  margin-top: 5%; 
+  z-index: 0;
 }
 
-.slider{
-  position: relative;
-  width: 100%;
-  margin: auto;
-  overflow: hidden; 
+.slide.active{
+  opacity: 1;
+  z-index: 1; 
 }
 
-.slider img{
-  width: 100%;
-  display: none;
+.previousSlide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(51, 51, 51, 0.6); /* Maroon-tinted dark button */
+  border: none;
+  color: #f7f7f7;
+  font-size: 2rem;
+  padding: 12px;
+  cursor: pointer;
+  z-index: 2;
+  transition: background-color 0.3s ease;
+  border-radius: 50%;
 }
 
-img.displaySlide{
-  display: block;
+.previousSlide.prev {
+  left: 20px;
 }
+
+.nextSlide.next{
+  right: 20px;
+}
+
 .Description
 {
     background-color: #afa491;
@@ -158,6 +180,105 @@ font-size: large;
   font-family: 'Montserrat';
 }
 
+#GoToPortfolio {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#GoToPortfolio:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#GoToProfile {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#GoToProfile:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#GoToEssay {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#GoToEssay:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#GoToDesign {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#GoToDesign:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#GoToBlogs {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#GoToBlogs:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
 
 
 
