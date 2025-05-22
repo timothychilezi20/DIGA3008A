@@ -116,15 +116,20 @@ h2 {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
-  padding: 10px 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
+  font-size: 0.8rem;
+  display: inline-flex;
   text-align: center; 
   justify-content: center;
   align-items: center;
+  width: auto;       
+  min-width: unset;  
+  max-width: fit-content; 
+  white-space: nowrap; 
 }
 
 #Week1:hover {
@@ -136,15 +141,20 @@ h2 {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
-  padding: 10px 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
+  font-size: 0.8rem;
+  display: inline-flex;
   text-align: center; 
   justify-content: center;
   align-items: center;
+  width: auto;       
+  min-width: unset;  
+  max-width: fit-content; 
+  white-space: nowrap; 
 }
 
 #Week2:hover {
@@ -156,15 +166,20 @@ h2 {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
-  padding: 10px 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
+  font-size: 0.8rem;
+  display: inline-flex;
   text-align: center; 
   justify-content: center;
   align-items: center;
+  width: auto;       
+  min-width: unset;  
+  max-width: fit-content; 
+  white-space: nowrap; 
 }
 
 #Week3:hover {
@@ -176,35 +191,20 @@ h2 {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
-  padding: 10px 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
+  font-size: 0.8rem;
+  display: inline-flex;
   text-align: center; 
   justify-content: center;
   align-items: center;
-}
-
-#Week4:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
-}
-
-#Week4 {
-  text-decoration: none;
-  color: #5a4233;
-  background-color: #fdf6ec;
-  padding: 10px 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: all 0.3s ease;
-  font-weight: 500;
-  min-width: 40px; 
-  text-align: center; 
-  justify-content: center;
-  align-items: center;
+  width: auto;       
+  min-width: unset;  
+  max-width: fit-content; 
+  white-space: nowrap; 
 }
 
 #Week4:hover {
@@ -216,15 +216,20 @@ h2 {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
-  padding: 10px 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
+  font-size: 0.8rem;
+  display: inline-flex;
   text-align: center; 
   justify-content: center;
   align-items: center;
+  width: auto;       
+  min-width: unset;  
+  max-width: fit-content; 
+  white-space: nowrap; 
 }
 
 #Week5:hover {
@@ -236,15 +241,20 @@ h2 {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
-  padding: 10px 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
+  font-size: 0.8rem;
+  display: inline-flex;
   text-align: center; 
   justify-content: center;
   align-items: center;
+  width: auto;       
+  min-width: unset;  
+  max-width: fit-content; 
+  white-space: nowrap; 
 }
 
 #Week6:hover {
@@ -256,15 +266,20 @@ h2 {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
-  padding: 10px 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
+  font-size: 0.8rem;
+  display: inline-flex;
   text-align: center; 
   justify-content: center;
   align-items: center;
+  width: auto;       
+  min-width: unset;  
+  max-width: fit-content; 
+  white-space: nowrap; 
 }
 
 #Week7:hover {
@@ -276,15 +291,20 @@ h2 {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
-  padding: 10px 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
+  font-size: 0.8rem;
+  display: inline-flex;
   text-align: center; 
   justify-content: center;
   align-items: center;
+  width: auto;       
+  min-width: unset;  
+  max-width: fit-content; 
+  white-space: nowrap; 
 }
 
 #Week8:hover {
@@ -296,15 +316,20 @@ h2 {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
-  padding: 10px 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
+  font-size: 0.8rem;
+  display: inline-flex;
   text-align: center; 
   justify-content: center;
   align-items: center;
+  width: auto;       
+  min-width: unset;  
+  max-width: fit-content; 
+  white-space: nowrap; 
 }
 
 #Week9:hover {
@@ -316,15 +341,20 @@ h2 {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
-  padding: 10px 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
+  font-size: 0.8rem;
+  display: inline-flex;
   text-align: center; 
   justify-content: center;
   align-items: center;
+  width: auto;       
+  min-width: unset;  
+  max-width: fit-content; 
+  white-space: nowrap; 
 }
 
 #Week10:hover {
@@ -336,15 +366,20 @@ h2 {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
-  padding: 10px 16px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
+  font-size: 0.8rem;
+  display: inline-flex;
   text-align: center; 
   justify-content: center;
   align-items: center;
+  width: auto;       
+  min-width: unset;  
+  max-width: fit-content; 
+  white-space: nowrap; 
 }
 
 #Week11:hover {
