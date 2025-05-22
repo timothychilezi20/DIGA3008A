@@ -33,7 +33,7 @@ function nextSlide() {
 }
 
 function prevSlide(){
-    currentSide = (currentSlide - 1 + totalSlides) % totalSlides;
+    currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
     showSlides(currentSlide);
 }
 
