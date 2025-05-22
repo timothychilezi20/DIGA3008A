@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const goToPage = {
-        Week1: "Blogs/AcademicWriting/Week1.html",
+        Week1: "AcademicWriting/Week1.html",
         Week2: "Blogs/AcademicWriting/Week2.html",
         Week3: "Blogs/AcademicWriting/Week3.html",
         Week4: "Blogs/AcademicWriting/Week4.html",
