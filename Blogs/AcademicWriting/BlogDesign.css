@@ -34,58 +34,104 @@ h2 {
     letter-spacing: 1px;
 }
 
+.blog-slider-container {
+  position: relative;
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 0 60px; /* Space for arrows */
+}
+
 .blog-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
+  display: flex;
+  gap: 30px;
+  overflow: hidden; 
+  scroll-behavior: smooth;
+  padding: 20px 0;
 }
 
 .blog-item {
-    display: flex;
-    flex-direction: row;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    border-radius: 12px;
-    overflow: hidden;
-    max-width: 550px;
+    flex: 0 0 350px; /* Fixed width (no grow/shrink) */
+  height: 450px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.blog-item:hover {
+     transform: translateY(-5px);
 }
 
 .blog-item img {
-    width: 50%;
-    object-fit: cover;
+    width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
 }
 
 .blog-content {
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+  height: 250px; 
+  display: flex;
+  flex-direction: column;
 }
 
-.blog-content a {
-    text-decoration: none;
-    color: #5a4233;
-    font-size: 1.2em;
-    font-weight: bold;
-    font-family: 'Montserrat';
+.blog-content h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.3rem;
 }
 
-.blog-content a:hover {
-    text-decoration: underline;
+.blog-content p {
+   margin: 0;
+  color: #666;
+  line-height: 1.5;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+  flex-grow: 1;
 }
 
-@media (max-width: 768px) {
-    .blog-item {
-        flex-direction: column;
-        max-width: 100%;
-    }
+.blog-content button {
+     margin-top: 15px;
+  padding: 10px 20px;
+  background: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start;
+}
 
-    .blog-item img,
-    .blog-content {
-        width: 100%;
-    }
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  border: none;
+  font-size: 1.5rem;
+  color: #0066cc;
+}
+
+.slider-arrow.prev {
+  left: 0;
+}
+
+.slider-arrow.next {
+  right: 0;
+}
+
+.slider-arrow:hover {
+  background: #f0f0f0;
 }
 
 @font-face

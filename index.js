@@ -55,3 +55,19 @@ slides.forEach(slide => {
     h2.style.color = '#fff';
     h2.style.textShadow = '2px 2px 10px rgba(0, 0, 0, 0.8)';
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const slider = document.querySelector('.blog-grid');
+  const prev = document.querySelector('.arrow.prev');
+  const next = document.querySelector('.arrow.next');
+  
+  const slideAmount = 330; 
+  
+  prev.addEventListener('click', () => {
+    slider.scrollBy({ left: -slideAmount, behavior: 'smooth' });
+  });
+  
+  next.addEventListener('click', () => {
+    slider.scrollBy({ left: slideAmount, behavior: 'smooth' });
+  });
+});
