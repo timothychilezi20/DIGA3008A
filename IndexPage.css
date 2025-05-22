@@ -368,59 +368,6 @@ font-size: large;
     transform: scale(1.1);
 }
 
-.slideContainer {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 50px;
-}
-
-.blog-grid {
-  display: flex;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  gap: 30px;
-  padding: 20px 0;
-}
-
-.arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: none;
-  border-radius: 50%;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  font-size: 1.2rem;
-  cursor: pointer;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.arrow.prev {
-  left: 0;
-}
-
-.arrow.next {
-  right: 0;
-}
-
-.arrow:hover {
-  background: #f0f0f0;
-}
-
-.blog-item {
-  min-width: 300px;
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
 
 
 

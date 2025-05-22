@@ -95,6 +95,8 @@
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
+    background-color: #fef9ec;
+    padding: 80px 60px;
   }
   
   .blog-item {
@@ -150,25 +152,6 @@
     font-family: "Montserrat";
     src: url(../../Fonts/Montserrat-VariableFont_wght.ttf)
   }
-  
-  .Description
-  {
-    background-color: #afa491;
-    padding: 150px 90px;
-    scroll-margin-top: 99px;
-    position: relative;
-    font-family: 'Montserrat';
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #3e3e3e;
-  }
-  
-  .blog-grid{
-    background-color: #fef9ec; 
-    padding: 80px 60px; 
-    font-family: 'Montserrat';
-  }
 
   .my-name{
     font-family: 'Montserrat';
@@ -178,3 +161,47 @@
     color: #3e3e3e;
     font-weight: bold;
   }
+
+  .profileSection {
+  background-color: #fef9ec;
+  padding: 100px 60px;
+  font-family: 'Montserrat';
+  display: flex;
+  justify-content: center;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 1000px;
+  width: 100%;
+  gap: 40px;
+  padding: 40px;
+}
+
+.profileContainer img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profileInfo {
+  max-width: 600px;
+  font-size: 1.1rem;
+  color: #3e3e3e;
+  text-align: left;
+}
+
+.profileInfo h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #2e2e2e;
+}
