@@ -111,4 +111,244 @@ h2 {
   font-weight: bold;
   font-size: large;
 }
+
+#Week1 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#Week1:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#Week2 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#Week2:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#Week3 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#Week3:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#Week4 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#Week4:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#Week4 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#Week4:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#Week5 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#Week5:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#Week6 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#Week6:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#Week7 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#Week7:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#Week8 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#Week8:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#Week9 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#Week9:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#Week10 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#Week10:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
+
+#Week11 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+#Week11:hover {
+    background-color: #e9dccd;
+    transform: scale(1.1);
+}
   
