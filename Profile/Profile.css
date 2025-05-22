@@ -255,3 +255,57 @@
   font-size: 1rem;
   color: #555;
 }
+
+#contact {
+  padding: 100px 60px;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+#contact h3 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #3e3e3e;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.contact-item {
+  background: #fef9ec;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease;
+  max-width: 320px;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+}
+
+.contact-item i {
+  font-size: 2.2rem;
+  color: #5a4233;
+  margin-bottom: 12px;
+}
+
+.contact-item p {
+  font-size: 1rem;
+  color: #3e3e3e;
+}
+
+.contact-item a {
+  color: #5a4233;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
