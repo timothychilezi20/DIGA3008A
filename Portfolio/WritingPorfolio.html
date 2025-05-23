@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../Portfolio/Writing.css">
     <script src="https://kit.fontawesome.com/dddfa338de.js" crossorigin="anonymous"></script>
     <script src="../css/Main.js"></script>
+    <script src="../Portfolio/Writing.js"></script>
 </head>
 <body>
 <header>
@@ -52,7 +53,7 @@
         <p>A story based on a mother who seeks for her son after he ran away from home after a
             heated confrontation years ago, but she must overcome multiple obstacles first.
         </p>
-        <a href="../Writing/Timothy_Chilezi_2683111_Assignment2_Final.pdf" target="_blank">Read Story</a>
+        <button onClick="openPDF('../Writing/Timothy_Chilezi_2683111_Assignment2_Final.pdf')">Read Story</button>
     </div>
 
     <div class="writing-work">
@@ -60,7 +61,7 @@
         <p>
             This is a writer's report on the story 'Manoka'!
         </p>
-        <a href="../Writing/Timothy Chilezi - Writer's Report (Week 3)-Manoka.pdf" target="_blank">Read Report</a>
+        <button onClick="openPDF('../Writing/TimothyChilezi_WritersReport_Week3_Manoka.pdf')">Read Report</button>
     </div>
 
     <div class="writing-work">
@@ -68,7 +69,7 @@
         <p>
             A writer's report on the story 'Tjieng Tjang Tjerries' by Jolyn Phillips. 
         </p>
-        <a href="../Writing/Timothy_Chilezi_2683111_Week 5 Writer's Report.pdf" target="_blank">Read Report</a>
+        <button onClick="openPDF('../Writing/Timothy_Chilezi_2683111_Week5_Writers_Report')">Read Report</button>
     </div>
 </section>
 
@@ -102,4 +103,10 @@
         Timothy Chilezi (2025). All Rights Reserved.
     </p>
 </footer>
+<div id="pdfModal" class="modal">
+  <div class="modal-content">
+    <span class="closeBtn">&times;</span>
+    <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+  </div>
+</div>
 </body>
