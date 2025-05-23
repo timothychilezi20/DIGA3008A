@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     Week10: "AcademicWriting/Week10.html",
     Week11: "AcademicWriting/Week11.html",
     Week12: "AcademicWriting/Week12.html",
+    Week13: "AcademicWriting/Week13.html",
   };
 
   Object.keys(goToPage).forEach((buttonId) => {
