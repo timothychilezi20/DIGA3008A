@@ -10,12 +10,11 @@
   margin-top: 5%;
 }
 
-.slider .overlay h2 {
+h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: "Montserrat";
-  color: #3e3e3e;
 }
 
 .essay-section h2 {
