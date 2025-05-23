@@ -25,3 +25,7 @@ slides.forEach(slide => {
     h2.style.color = '#fff';
     h2.style.textShadow = '2px 2px 10px rgba(0, 0, 0, 0.8)';
 });
+
+window.addEventListener('scroll', function () {
+    document.getElementById('check').checked = false;
+});

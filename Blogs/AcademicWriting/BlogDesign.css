@@ -1,57 +1,57 @@
-.Blogs{
-    position: relative;
-    height: 600px; 
-    background: url('../../DesignSectionStuff/Images/BlogPicture.jpg') center/cover no-repeat; 
-    overflow: hidden;
-    color: #f7f7f7;
-    font-size: 80px;
-    font-family: "Montserrat";
-  
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
-    margin-top: 5%; 
-  }
+.Blogs {
+  position: relative;
+  height: 600px;
+  background: url("../../DesignSectionStuff/Images/BlogPicture.jpg")
+    center/cover no-repeat;
+  overflow: hidden;
+  color: #f7f7f7;
+  font-size: 80px;
+  font-family: "Montserrat";
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
 
 body {
-    margin: 0;
-    font-family: 'Montserrat'; 
-    background-color: #fefaf3;
-    color: #3e3e3e;
+  margin: 0;
+  font-family: "Montserrat";
+  background-color: #fefaf3;
+  color: #3e3e3e;
 }
 
 main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 h2 {
-    text-align: center;
-    margin-bottom: 60px;
-    letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 60px;
+  letter-spacing: 1px;
 }
-
 
 .blog-grid {
   display: flex;
   overflow-x: auto;
-  gap: 30px; 
+  gap: 30px;
   padding: 40px;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
   padding: 40px 20px;
-  max-width: 1400px; 
+  max-width: 1400px;
   margin: 0 auto;
 }
 
 .blog-item {
-    display: flex;
+  display: flex;
   flex-direction: column;
   background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   border-radius: 12px;
   overflow: hidden;
   max-width: 350px;
@@ -59,96 +59,94 @@ h2 {
 }
 
 .blog-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
 }
 
 .blog-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-bottom: 1px solid #eee;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
 }
 
 .blog-content {
-    padding: 25px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
 .blog-content p {
-    margin-bottom: 20px;
-    color: #666;
-    line-height: 1.5;
-    flex-grow: 1;
+  margin-bottom: 20px;
+  color: #666;
+  line-height: 1.5;
+  flex-grow: 1;
 }
 
 .blog-content button {
-    align-self: flex-start;
-    padding: 10px 20px;
-    background-color: #0066cc;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-family: 'Montserrat', sans-serif;
+  align-self: flex-start;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Montserrat", sans-serif;
 }
 
 .blog-content button:hover {
-    background-color: #0052a3;
+  background-color: #0052a3;
 }
 
 .blog-content a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .blog-content p {
-    margin-bottom: 20px;
-    color: #666;
-    line-height: 1.5;
-    flex-grow: 1;
+  margin-bottom: 20px;
+  color: #666;
+  line-height: 1.5;
+  flex-grow: 1;
 }
 
 .blog-content button {
-    align-self: flex-start;
-    padding: 10px 20px;
-    background-color: #0066cc;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-family: 'Montserrat', sans-serif;
+  align-self: flex-start;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Montserrat", sans-serif;
 }
 
 .blog-content button:hover {
-    background-color: #0052a3;
+  background-color: #0052a3;
 }
 
-@font-face
-{
-    font-family: "Montserrat";
-    src: url(../../Fonts/Montserrat-VariableFont_wght.ttf)
+@font-face {
+  font-family: "Montserrat";
+  src: url(../../Fonts/Montserrat-VariableFont_wght.ttf);
 }
 
-.Description
-{
-    background-color: #afa491;
-    padding: 150px 90px;
-    scroll-margin-top: 99px;
-    position: relative;
-    font-family: 'Montserrat';
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #3e3e3e;
+.Description {
+  background-color: #afa491;
+  padding: 150px 90px;
+  scroll-margin-top: 99px;
+  position: relative;
+  font-family: "Montserrat";
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #3e3e3e;
 }
 
-.Heading{
+.Heading {
   font-weight: bold;
   font-size: large;
 }
@@ -159,23 +157,23 @@ h2 {
   background-color: #fdf6ec;
   padding: 3px 6px;
   border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
   font-size: 0.8rem;
   display: inline-flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: auto;       
-  min-width: unset;  
-  max-width: fit-content; 
-  white-space: nowrap; 
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 #Week1:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
+  background-color: #e9dccd;
+  transform: scale(1.1);
 }
 
 #Week2 {
@@ -184,23 +182,23 @@ h2 {
   background-color: #fdf6ec;
   padding: 3px 6px;
   border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
   font-size: 0.8rem;
   display: inline-flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: auto;       
-  min-width: unset;  
-  max-width: fit-content; 
-  white-space: nowrap; 
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 #Week2:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
+  background-color: #e9dccd;
+  transform: scale(1.1);
 }
 
 #Week3 {
@@ -209,23 +207,23 @@ h2 {
   background-color: #fdf6ec;
   padding: 3px 6px;
   border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
   font-size: 0.8rem;
   display: inline-flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: auto;       
-  min-width: unset;  
-  max-width: fit-content; 
-  white-space: nowrap; 
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 #Week3:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
+  background-color: #e9dccd;
+  transform: scale(1.1);
 }
 
 #Week4 {
@@ -234,23 +232,23 @@ h2 {
   background-color: #fdf6ec;
   padding: 3px 6px;
   border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
   font-size: 0.8rem;
   display: inline-flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: auto;       
-  min-width: unset;  
-  max-width: fit-content; 
-  white-space: nowrap; 
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 #Week4:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
+  background-color: #e9dccd;
+  transform: scale(1.1);
 }
 
 #Week5 {
@@ -259,23 +257,23 @@ h2 {
   background-color: #fdf6ec;
   padding: 3px 6px;
   border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
   font-size: 0.8rem;
   display: inline-flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: auto;       
-  min-width: unset;  
-  max-width: fit-content; 
-  white-space: nowrap; 
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 #Week5:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
+  background-color: #e9dccd;
+  transform: scale(1.1);
 }
 
 #Week6 {
@@ -284,23 +282,23 @@ h2 {
   background-color: #fdf6ec;
   padding: 3px 6px;
   border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
   font-size: 0.8rem;
   display: inline-flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: auto;       
-  min-width: unset;  
-  max-width: fit-content; 
-  white-space: nowrap; 
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 #Week6:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
+  background-color: #e9dccd;
+  transform: scale(1.1);
 }
 
 #Week7 {
@@ -309,23 +307,23 @@ h2 {
   background-color: #fdf6ec;
   padding: 3px 6px;
   border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
   font-size: 0.8rem;
   display: inline-flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: auto;       
-  min-width: unset;  
-  max-width: fit-content; 
-  white-space: nowrap; 
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 #Week7:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
+  background-color: #e9dccd;
+  transform: scale(1.1);
 }
 
 #Week8 {
@@ -334,23 +332,23 @@ h2 {
   background-color: #fdf6ec;
   padding: 3px 6px;
   border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
   font-size: 0.8rem;
   display: inline-flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: auto;       
-  min-width: unset;  
-  max-width: fit-content; 
-  white-space: nowrap; 
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 #Week8:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
+  background-color: #e9dccd;
+  transform: scale(1.1);
 }
 
 #Week9 {
@@ -359,23 +357,23 @@ h2 {
   background-color: #fdf6ec;
   padding: 3px 6px;
   border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
   font-size: 0.8rem;
   display: inline-flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: auto;       
-  min-width: unset;  
-  max-width: fit-content; 
-  white-space: nowrap; 
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 #Week9:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
+  background-color: #e9dccd;
+  transform: scale(1.1);
 }
 
 #Week10 {
@@ -384,23 +382,23 @@ h2 {
   background-color: #fdf6ec;
   padding: 3px 6px;
   border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
   font-size: 0.8rem;
   display: inline-flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: auto;       
-  min-width: unset;  
-  max-width: fit-content; 
-  white-space: nowrap; 
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 #Week10:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
+  background-color: #e9dccd;
+  transform: scale(1.1);
 }
 
 #Week11 {
@@ -409,23 +407,23 @@ h2 {
   background-color: #fdf6ec;
   padding: 3px 6px;
   border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
   font-size: 0.8rem;
   display: inline-flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: auto;       
-  min-width: unset;  
-  max-width: fit-content; 
-  white-space: nowrap; 
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 #Week11:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
+  background-color: #e9dccd;
+  transform: scale(1.1);
 }
 
 #Week12 {
@@ -434,90 +432,115 @@ h2 {
   background-color: #fdf6ec;
   padding: 3px 6px;
   border-radius: 6px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
   font-size: 0.8rem;
   display: inline-flex;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
   align-items: center;
-  width: auto;       
-  min-width: unset;  
-  max-width: fit-content; 
-  white-space: nowrap; 
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
 }
 
 #Week12:hover {
-    background-color: #e9dccd;
-    transform: scale(1.1);
+  background-color: #e9dccd;
+  transform: scale(1.1);
+}
+
+#Week13 {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-size: 0.8rem;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-width: unset;
+  max-width: fit-content;
+  white-space: nowrap;
+}
+
+#Week13:hover {
+  background-color: #e9dccd;
+  transform: scale(1.1);
 }
 
 .slideContainer {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 40px;
-    overflow: hidden;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  overflow: hidden;
 }
 
 .blog-grid {
-    display: flex;
-    transition: transform 0.5s ease;
-    gap: 20px; 
-    padding: 10px 0;
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 20px;
+  padding: 10px 0;
 }
 
 .blog-item {
-    min-width: calc(33.333% - 14px); 
-    flex: 0 0 auto;
-    transition: all 0.3s ease;
+  min-width: calc(33.333% - 14px);
+  flex: 0 0 auto;
+  transition: all 0.3s ease;
 }
 
 .slider-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0,0,0,0.5);
-    color: white;
-    border: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 18px;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slider-arrow:hover {
-    background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .prev-arrow {
-    left: 0;
+  left: 0;
 }
 
 .next-arrow {
-    right: 0;
+  right: 0;
 }
 
 @media (max-width: 900px) {
-    .blog-item {
-        min-width: calc(50% - 10px);
-    }
+  .blog-item {
+    min-width: calc(50% - 10px);
+  }
 }
 
 @media (max-width: 600px) {
-    .blog-item {
-        min-width: 100%; /* Show 1 item on mobile */
-    }
-    
-    .slider-container {
-        padding: 0 30px;
-    }
+  .blog-item {
+    min-width: 100%; /* Show 1 item on mobile */
+  }
+
+  .slider-container {
+    padding: 0 30px;
+  }
 }
 
 .menuIcon {
@@ -531,7 +554,7 @@ h2 {
   border-radius: 8px;
   z-index: 1000;
   cursor: pointer;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: opacity 0.3s ease;
 }
 
@@ -619,5 +642,5 @@ h2 {
 }
 
 .sideMenu:not(.hidden) {
-  transform: translateX(0); 
+  transform: translateX(0);
 }
