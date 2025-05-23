@@ -1,79 +1,81 @@
-.Blogs{
-    position: relative;
-    height: 600px; 
-    background: url('../DesignSectionStuff/Images/WritingorAboutMe.jpeg') center/cover no-repeat; 
-    overflow: hidden;
-    color: #f7f7f7;
-    font-size: 80px;
-    font-family: "Montserrat";
-  
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
-    margin-top: 5%; 
-  }
+.Blogs {
+  position: relative;
+  height: 600px;
+  background: url("../DesignSectionStuff/Images/WritingorAboutMe.jpeg")
+    center/cover no-repeat;
+  overflow: hidden;
+  color: #f7f7f7;
+  font-size: 80px;
+  font-family: "Montserrat";
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
 
 body {
-    margin: 0;
-    font-family: 'Montserrat'; 
-    background-color: #fefaf3;
-    color: #3e3e3e;
+  margin: 0;
+  font-family: "Montserrat";
+  background-color: #fefaf3;
+  color: #3e3e3e;
 }
 
-.Description
-{
-    background-color: #afa491;
-    padding: 150px 90px;
-    scroll-margin-top: 99px;
-    position: relative;
-    font-family: 'Montserrat';
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #3e3e3e;
+.Description {
+  background-color: #afa491;
+  padding: 150px 90px;
+  scroll-margin-top: 99px;
+  position: relative;
+  font-family: "Montserrat";
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #3e3e3e;
 }
 
-.Heading{
+.Heading {
   font-weight: bold;
   font-size: large;
 }
 
-.writing{
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center;
-    gap: 24px;
-    padding: 40px; 
+.writing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 40px;
 }
 
-.writing-work{
-    background-color: #fffaf2; 
-    box-shadow: 0 4px 8px rgba(0,0,0,0.08); 
-    border-radius: 10px; 
-    padding: 20px; 
-    max-width: 280px; 
-    text-align: center; 
+.writing-work {
+  background-color: #fffaf2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 280px;
+  text-align: center;
 }
 
-.writing-work a{
-    display: inline-block; 
-    margin-top: 10px; 
-    color: #5a4233; 
-    text-decoration: none; 
-    background-color: #e9dccd;
-    padding: 8px 12px; 
-    border-radius: 6px; 
-    font-weight: bold;
+.writing-work a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #5a4233;
+  text-decoration: none;
+  background-color: #e9dccd;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: bold;
 }
 
 .modal {
   display: none;
   position: fixed;
   z-index: 1000;
-  left: 0; top: 0;
-  width: 100%; height: 100%;
-  background-color: rgba(0,0,0,0.8);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
   justify-content: center;
   align-items: center;
 }
@@ -95,44 +97,44 @@ body {
   cursor: pointer;
 }
 
-.Numbers{
+.Numbers {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
   margin-top: 40px;
   padding: 20px 0;
-  font-family: 'Montserrat'; 
-  flex-wrap: wrap; 
- }
+  font-family: "Montserrat";
+  flex-wrap: wrap;
+}
 
- .Numbers a{
+.Numbers a {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
   padding: 10px 16px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
-  text-align: center; 
+  min-width: 40px;
+  text-align: center;
   justify-content: center;
   align-items: center;
- }
+}
 
- .Numbers a:hover{
+.Numbers a:hover {
   background-color: #e9dccd;
- }
+}
 
- .Numbers a.active{
+.Numbers a.active {
   background-color: #d1bfa7;
   color: white;
   font-weight: bold;
- }
+}
 
- .Numbers .arrow{
+.Numbers .arrow {
   font-weight: bold;
-  background-color: #d1bfa7; 
-  color: #fff; 
- }
+  background-color: #d1bfa7;
+  color: #fff;
+}
