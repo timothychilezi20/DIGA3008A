@@ -10,6 +10,15 @@
   margin-top: 5%;
 }
 
+.overlay h2 {
+  font-size: 80px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat";
+  color: #3e3e3e;
+}
+
 .essay-section h2 {
   font-size: 80px;
   margin: 0;
