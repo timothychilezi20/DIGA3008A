@@ -22,3 +22,43 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const menuIcon = document.getElementById("menuIcon");
+  const sideMenu = document.getElementById("sideMenu");
+  const overlay = document.getElementById("overlay");
+
+  if (!menuIcon || !sideMenu || !overlay) {
+    console.error("Menu elements not found");
+    return;
+  }
+
+  const openMenu = () => {
+    sideMenu.classList.remove("hidden");
+    overlay.classList.remove("hidden");
+  };
+
+  const closeMenu = () => {
+    sideMenu.classList.add("hidden");
+    overlay.classList.add("hidden");
+  };
+
+  menuIcon.addEventListener("click", openMenu);
+  overlay.addEventListener("click", closeMenu);
+
+  let lastScrollTop = 0;
+
+  window.addEventListener("scroll", () => {
+    if (!sideMenu.classList.contains("hidden")) {
+      closeMenu();
+    }
+
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    if (currentScroll > lastScrollTop) {
+      menuIcon.style.display = "none"; 
+    } else {
+      menuIcon.style.display = "block"; 
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  });
+});

@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const goToPage = {
-        Drawings: "Portfolio/DrawingsPortfolio.html",
-        Writing: "Portfolio/WritingPortfolio.html",
-        Games: "Portfolio/GamesPortfolio.html",
-        Assets: "Portfolio/AssetsPortfolio.html",
+        Drawings: "DrawingsPortfolio.html",
+        Writing: "WritingPorfolio.html",
+        Games: "GamesPortfolio.html",
+        Assets: "AssetsPortfolio.html",
     }
 
     Object.keys(goToPage).forEach(buttonId => {
