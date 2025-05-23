@@ -1,26 +1,26 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const goToPage = {
-        Week1: "AcademicWriting/Week1.html",
-        Week2: "AcademicWriting/Week2.html",
-        Week3: "AcademicWriting/Week3.html",
-        Week4: "AcademicWriting/Week4.html",
-        Week5: "AcademicWriting/Week5.html",
-        Week6: "AcademicWriting/Week6.html",
-        Week7: "AcademicWriting/Week7.html",
-        Week8: "AcademicWriting/Week8.html",
-        Week9: "AcademicWriting/Week9.html",
-        Week10: "AcademicWriting/Week10.html",
-        Week11: "AcademicWriting/Week11.html",
-    }
+  const goToPage = {
+    Week1: "AcademicWriting/Week1.html",
+    Week2: "AcademicWriting/Week2.html",
+    Week3: "AcademicWriting/Week3.html",
+    Week4: "AcademicWriting/Week4.html",
+    Week5: "AcademicWriting/Week5.html",
+    Week6: "AcademicWriting/Week6.html",
+    Week7: "AcademicWriting/Week7.html",
+    Week8: "AcademicWriting/Week8.html",
+    Week9: "AcademicWriting/Week9.html",
+    Week10: "AcademicWriting/Week10.html",
+    Week11: "AcademicWriting/Week11.html",
+  };
 
-    Object.keys(goToPage).forEach(buttonId => {
-        const button = document.getElementById(buttonId);
-        if (button) {
-            button.addEventListener("click", () => {
-                window.location.href = goToPage[buttonId];
-            });
-        }
-    })
+  Object.keys(goToPage).forEach((buttonId) => {
+    const button = document.getElementById(buttonId);
+    if (button) {
+      button.addEventListener("click", () => {
+        window.location.href = goToPage[buttonId];
+      });
+    }
+  });
 });
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -53,11 +53,12 @@ document.addEventListener("DOMContentLoaded", () => {
       closeMenu();
     }
 
-    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    let currentScroll =
+      window.pageYOffset || document.documentElement.scrollTop;
     if (currentScroll > lastScrollTop) {
-      menuIcon.style.display = "none"; 
+      menuIcon.style.display = "none";
     } else {
-      menuIcon.style.display = "block"; 
+      menuIcon.style.display = "block";
     }
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
   });

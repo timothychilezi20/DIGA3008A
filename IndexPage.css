@@ -260,7 +260,8 @@ font-size: large;
   width: auto;       
   min-width: unset;  
   max-width: fit-content; 
-  white-space: nowrap; 
+  white-space: nowrap;
+   
 }
 
 #GoToPortfolio:hover {

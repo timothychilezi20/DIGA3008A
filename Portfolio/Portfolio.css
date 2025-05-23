@@ -87,8 +87,12 @@ h2 {
     font-family: 'Montserrat';
 }
 
-.portfolio-content a:hover {
-    text-decoration: underline;
+.portfolio-content h3 {
+    text-decoration: none;
+    color: #5a4233;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Montserrat';
 }
 
 @media (max-width: 768px) {
@@ -149,10 +153,11 @@ h2 {
   width: auto;       
   min-width: unset;  
   max-width: fit-content; 
-  white-space: nowrap; 
+  white-space: nowrap;
+  font-family: "Montserrat"; 
 }
 
-#Games {
+#Games:hover {
     background-color: #e9dccd;
     transform: scale(1.1);
 }
@@ -174,7 +179,8 @@ h2 {
   width: auto;       
   min-width: unset;  
   max-width: fit-content; 
-  white-space: nowrap; 
+  white-space: nowrap;
+  font-family: "Montserrat"; 
 }
 
 #Drawings:hover {
@@ -200,7 +206,9 @@ h2 {
   min-width: unset;  
   max-width: fit-content; 
   white-space: nowrap; 
+  font-family: "Montserrat"; 
 }
+
 
 #Writing:hover {
     background-color: #e9dccd;
@@ -225,6 +233,7 @@ h2 {
   min-width: unset;  
   max-width: fit-content; 
   white-space: nowrap; 
+  font-family: "Montserrat"; 
 }
 
 #Assets:hover {
