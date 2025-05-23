@@ -70,37 +70,27 @@ body {
 .modal {
   display: none;
   position: fixed;
-  z-index: 9999;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.8);
   justify-content: center;
   align-items: center;
 }
 
-.modal-content {
-  background: #fff;
-  padding: 1rem;
-  position: relative;
+.modal iframe {
   width: 80%;
-  height: 90%;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-.modal-content iframe {
-  width: 100%;
-  height: 100%;
+  height: 80%;
   border: none;
+  background: #fff;
+  box-shadow: 0 0 10px #000;
 }
 
-.closeBtn {
+.close {
   position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 2rem;
+  top: 20px;
+  right: 40px;
+  color: white;
+  font-size: 40px;
   cursor: pointer;
-  color: #000;
 }
