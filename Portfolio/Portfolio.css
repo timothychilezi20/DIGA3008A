@@ -231,4 +231,24 @@ h2 {
     background-color: #e9dccd;
     transform: scale(1.1);
 }
-  
+
+.back-button-container {
+    padding: 20px;
+    text-align: left;
+}
+
+.back-button {
+    background-color: #5a4233;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #7a5b44;
+}
