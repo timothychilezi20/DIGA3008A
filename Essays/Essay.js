@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const goToPage = {
-    EthicsEssay: "Essays/EthicsEssay.html",
+    EthicsEssay: "EthicsEssay.html",
   };
 
   Object.keys(goToPage).forEach((buttonId) => {
