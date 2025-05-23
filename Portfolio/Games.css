@@ -171,3 +171,45 @@ h2 {
   height: auto;
   border-radius: 10px;
 }
+
+.Numbers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 20px 0;
+  font-family: 'Montserrat'; 
+  flex-wrap: wrap; 
+ }
+
+ .Numbers a{
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px; 
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+ }
+
+ .Numbers a:hover{
+  background-color: #e9dccd;
+ }
+
+ .Numbers a.active{
+  background-color: #d1bfa7;
+  color: white;
+  font-weight: bold;
+ }
+
+ .Numbers .arrow{
+  font-weight: bold;
+  background-color: #d1bfa7; 
+  color: #fff; 
+ }
