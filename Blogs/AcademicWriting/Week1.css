@@ -1,81 +1,78 @@
-.DateandHeading{
-    position: relative;
-    height: 600px; 
-    background: url('../../DesignSectionStuff/Images/Week1Blog.jpeg') center/cover no-repeat; 
-    overflow: hidden;
-    color: #f7f7f7;
-    font-size: 50px;
-    font-family: "Montserrat";
-  
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
-    margin-top: 5%; 
-  }
+.DateandHeading {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+  color: #f7f7f7;
+  font-size: 50px;
+  font-family: "Montserrat";
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
 
 body {
-    margin: 0;
-    font-family: 'Montserrat'; 
-    background-color: #fefaf3;
-    color: #3e3e3e;
+  margin: 0;
+  font-family: "Montserrat";
+  background-color: #fefaf3;
+  color: #3e3e3e;
 }
 
-.GitHubSetup{
+.GitHubSetup {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   overflow: hidden;
   max-width: 100%;
-  padding: 80px 80px; 
-  margin: 40px ; 
+  padding: 80px 80px;
+  margin: 40px;
 }
 
-.Reflections{
+.Reflections {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   overflow: hidden;
   max-width: 100%;
-  padding: 80px 80px; 
-  margin: 40px 40px; 
+  padding: 80px 80px;
+  margin: 40px 40px;
 }
 
-.WebHistory{
+.WebHistory {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   overflow: hidden;
   max-width: 100%;
-  padding: 80px 80px; 
-  margin: 40px 40px; 
+  padding: 80px 80px;
+  margin: 40px 40px;
 }
 
-.Goals{
+.Goals {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   overflow: hidden;
   max-width: 100%;
-  padding: 80px 80px; 
-  margin: 40px 40px; 
+  padding: 80px 80px;
+  margin: 40px 40px;
 }
 
-.heading{
-  justify-content: center; 
-  align-items: center; 
+.heading {
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
-
 
 .blog-content {
   padding: 20px;
@@ -83,7 +80,7 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 50%;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .blog-content a {
@@ -91,7 +88,7 @@ body {
   color: #5a4233;
   font-size: 1.2em;
   font-weight: bold;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .blog-content a:hover {
@@ -100,54 +97,54 @@ body {
 
 @media (max-width: 768px) {
   .blog-item {
-      flex-direction: column;
-      max-width: 100%;
+    flex-direction: column;
+    max-width: 100%;
   }
 
   .blog-item img,
   .blog-content {
-      width: 100%;
+    width: 100%;
   }
 }
 
-.Numbers{
+.Numbers {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
   margin-top: 40px;
   padding: 20px 0;
-  font-family: 'Montserrat'; 
-  flex-wrap: wrap; 
- }
+  font-family: "Montserrat";
+  flex-wrap: wrap;
+}
 
- .Numbers a{
+.Numbers a {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
   padding: 10px 16px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
-  text-align: center; 
+  min-width: 40px;
+  text-align: center;
   justify-content: center;
   align-items: center;
- }
+}
 
- .Numbers a:hover{
+.Numbers a:hover {
   background-color: #e9dccd;
- }
+}
 
- .Numbers a.active{
+.Numbers a.active {
   background-color: #d1bfa7;
   color: white;
   font-weight: bold;
- }
+}
 
- .Numbers .arrow{
+.Numbers .arrow {
   font-weight: bold;
-  background-color: #d1bfa7; 
-  color: #fff; 
- }
+  background-color: #d1bfa7;
+  color: #fff;
+}
