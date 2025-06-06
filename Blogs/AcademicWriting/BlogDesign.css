@@ -658,3 +658,15 @@ h2 {
 .sideMenu:not(.hidden) {
   transform: translateX(0);
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 80px 80px;
+  margin: 40px;
+}
