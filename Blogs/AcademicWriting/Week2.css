@@ -1,135 +1,75 @@
-.DateandHeading{
-    position: relative;
-    height: 600px;  
-    overflow: hidden;
-    color: #AE714C;
-    font-size: 50px;
-    font-family: "Montserrat";
-  
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
-    margin-top: 5%; 
-  }
+.DateandHeading {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+  color: #ae714c;
+  font-size: 50px;
+  font-family: "Montserrat";
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
 
 body {
-    margin: 0;
-    font-family: 'Montserrat'; 
-    background-color: #fefaf3;
-    color: #3e3e3e;
+  margin: 0;
+  font-family: "Montserrat";
+  background-color: #fefaf3;
+  color: #3e3e3e;
 }
-
-.Readings{
-  display: flex;
-  flex-direction:column;
-  background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  border-radius: 10px;
-  overflow: hidden;
-  max-width: 100%;
-  padding: 80px 80px; 
-  margin: 40px ; 
-}
-
-.URLScheme{
-  display: flex;
-  flex-direction:column;
-  background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  border-radius: 10px;
-  overflow: hidden;
-  max-width: 100%;
-  padding: 80px 80px; 
-  margin: 40px ; 
-}
-
-.Wireframes{
-  display: flex;
-  flex-direction:column;
-  background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  border-radius: 10px;
-  overflow: hidden;
-  max-width: 100%;
-  padding: 80px 80px; 
-  margin: 40px ; 
-}
-
-.Links{
-  display: flex;
-  flex-direction:column;
-  background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  border-radius: 10px;
-  overflow: hidden;
-  max-width: 100%;
-  padding: 80px 80px; 
-  margin: 40px ; 
-}
-
-.Reflections{
-  display: flex;
-  flex-direction:column;
-  background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  border-radius: 10px;
-  overflow: hidden;
-  max-width: 100%;
-  padding: 80px 80px; 
-  margin: 40px ; 
-}
- .images{
-  justify-content: center; 
-  align-items: center; 
+.images {
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
- }
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
 
-.heading{
-  justify-content: center; 
-  align-items: center; 
+.heading {
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.Numbers{
+.Numbers {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
   margin-top: 40px;
   padding: 20px 0;
-  font-family: 'Montserrat'; 
-  flex-wrap: wrap; 
- }
+  font-family: "Montserrat";
+  flex-wrap: wrap;
+}
 
- .Numbers a{
+.Numbers a {
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
   padding: 10px 16px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   font-weight: 500;
-  min-width: 40px; 
-  text-align: center; 
+  min-width: 40px;
+  text-align: center;
   justify-content: center;
   align-items: center;
- }
+}
 
- .Numbers a:hover{
+.Numbers a:hover {
   background-color: #e9dccd;
- }
+}
 
- .Numbers a.active{
+.Numbers a.active {
   background-color: #d1bfa7;
   color: white;
   font-weight: bold;
- }
+}
 
- .Numbers .arrow{
+.Numbers .arrow {
   font-weight: bold;
-  background-color: #d3c3ae; 
-  color: #fff; 
- }
+  background-color: #d3c3ae;
+  color: #fff;
+}

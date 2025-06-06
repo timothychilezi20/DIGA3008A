@@ -1,308 +1,292 @@
-.DateandHeading
-{
-    position: relative;
-    height: 600px;  
-    overflow: hidden;
-    color: #f7f7f7;
-    font-size: 50px;
-    font-family: "Montserrat";
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
-    margin-top: 5%; 
+.design h2 {
+  font-size: 80px;
+  margin: 0;
+  padding: 0 60px;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat";
 }
 
-.design h2
-{
-    font-size: 80px;
-    margin: 0;
-    padding: 0 60px;
-    padding-bottom: 40px; 
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: 'Montserrat';
+.DateandHeading h2 {
+  text-shadow: 2px 2px 6px rgba(90, 66, 51, 0.2);
 }
 
-.DateandHeading h2{
-    text-shadow: 2px 2px 6px rbga(90, 66, 51, 0.2);
-}
-
-.datetime{
-    text-shadow: 2px 2px 6px rbga(90, 66, 51, 0.2);
+.datetime {
+  text-shadow: 2px 2px 6px rgba(90, 66, 51, 0.2);
 }
 
 body {
-    margin: 0;
-    font-family: 'Montserrat'; 
-    background-color: #fefaf3;
-    color: #3e3e3e;
+  margin: 0;
+  font-family: "Montserrat";
+  background-color: #fefaf3;
+  color: #3e3e3e;
 }
 
-.Interface{
-    display: flex;
-    flex-direction:column;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    border-radius: 10px;
-    overflow: hidden;
-    max-width: 100%;
-    padding: 80px 80px; 
-    margin: 40px 40px; 
+.heading {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.Icons{
-    display: flex;
-    flex-direction:column;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    border-radius: 10px;
-    overflow: hidden;
-    max-width: 100%;
-    padding: 80px 80px; 
-    margin: 40px 40px; 
+.blog-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 1000px;
+  width: 100%;
+  gap: 10px;
+  padding: 80px 80px;
+  margin: 20px 350px;
 }
-  
-  .heading{
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
-  }
 
+.blog-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  font-family: "Montserrat";
+}
+
+.blog-content a {
+  max-width: 500px;
+  font-size: 1.1rem;
+  color: #3e3e3e;
+  text-align: left;
+}
+
+.blog-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #2e2e2e;
+}
+
+.blog-content a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
   .blog-item {
-    display: flex;
-    flex-direction: row;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    border-radius: 12px;
-    overflow: hidden;
-    max-width: 1200px;
-    margin: 40px 40px; 
-  }
-  
-  .blog-item img {
-    width: 50%;
-    object-fit: cover;
-  }
-  
-  .blog-content {
-    padding: 20px;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    font-family: 'Montserrat';
-  }
-  
-  .blog-content a {
-    text-decoration: none;
-    color: #5a4233;
-    font-size: 1.2em;
-    font-weight: bold;
-    font-family: 'Montserrat';
-  }
-  
-  .blog-content a:hover {
-    text-decoration: underline;
-  }
-  
-  @media (max-width: 768px) {
-    .blog-item {
-        flex-direction: column;
-        max-width: 100%;
-    }
-  
-    .blog-item img,
-    .blog-content {
-        width: 100%;
-    }
+    padding: 40px 20px;
+    margin: 20px;
   }
 
-  @font-face
-{
+  .blog-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  blog-content {
+    width: 100%;
+    padding: 20px 0 0;
+  }
+
+  .design h2 {
+    font-size: 48px;
+    padding: 0 20px 30px;
+  }
+
+  .Numbers {
+    gap: 15px;
+    padding: 10px 0;
+  }
+
+  .Russet,
+  .Seasalt,
+  .Black,
+  .FrenchGray,
+  .DavysGray {
+    padding: 40px 20px;
+    margin: 20px 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .blog-item {
+    margin: 20px auto;
+    padding: 60px 40px;
+  }
+
+  .Russet,
+  .Seasalt,
+  .Black,
+  .FrenchGray,
+  .DavysGray {
+    padding: 60px 40px;
+    margin: 30px;
+  }
+
+  .design h2 {
+    font-size: 64px;
+  }
+}
+
+.design h2 {
+  font-size: clamp(32px, 8vw, 80px);
+}
+
+@font-face {
   font-family: "Abril Fatface";
-  src: url(../Fonts/AbrilFatface-Regular.ttf)
+  src: url(../Fonts/AbrilFatface-Regular.ttf);
 }
 
-@font-face
-{
+@font-face {
   font-family: "Arimo";
-  src: url(../Fonts/Arimo-VariableFont_wght.ttf)
+  src: url(../Fonts/Arimo-VariableFont_wght.ttf);
 }
 
-  .StyleProcess{
-    display: flex;
-  flex-direction:column;
-  background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+.Russet {
+  display: flex;
+  flex-direction: column;
+  background-color: #784625;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   overflow: hidden;
   max-width: 100%;
-  padding: 80px 80px; 
-  margin: 40px ; 
-  }
+  padding: 80px 80px;
+  margin: 40px;
+}
 
-  .Russet{
-    display: flex;
-    flex-direction:column;
-    background-color: #784625;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    border-radius: 10px;
-    overflow: hidden;
-    max-width: 100%;
-    padding: 80px 80px; 
-    margin: 40px ; 
-  }
+.Russet .heading {
+  color: #f7f7f7;
+}
 
-  .Russet .heading{
-    color: #f7f7f7; 
-  }
+.Russet p {
+  color: #f7f7f7;
+}
 
-  .Russet p{
-    color: #f7f7f7; 
-  }
+.Seasalt {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 80px 80px;
+  margin: 40px;
+}
 
-  .Seasalt{
-    display: flex;
-    flex-direction:column;
-    background-color: #f7f7f7;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    border-radius: 10px;
-    overflow: hidden;
-    max-width: 100%;
-    padding: 80px 80px; 
-    margin: 40px ; 
-  }
+.Black {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 80px 80px;
+  margin: 40px;
+}
 
-  .Black{
-    display: flex;
-    flex-direction:column;
-    background-color: black;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    border-radius: 10px;
-    overflow: hidden;
-    max-width: 100%;
-    padding: 80px 80px; 
-    margin: 40px ; 
-  }
+.Black .heading {
+  color: #f7f7f7;
+}
 
-  .Black .heading{
-    color: #f7f7f7; 
-  }
+.Black p {
+  color: #f7f7f7;
+}
 
-  .Black p{
-    color: #f7f7f7; 
-  }
+.FrenchGray {
+  display: flex;
+  flex-direction: column;
+  background-color: #abb0c0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 80px 80px;
+  margin: 40px;
+}
 
-  .FrenchGray{
-    display: flex;
-    flex-direction:column;
-    background-color: #abb0c0;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    border-radius: 10px;
-    overflow: hidden;
-    max-width: 100%;
-    padding: 80px 80px; 
-    margin: 40px ; 
-  }
+.DavysGray {
+  display: flex;
+  flex-direction: column;
+  background-color: #49474f;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 80px 80px;
+  margin: 40px;
+}
 
-  .DavysGray{
-    display: flex;
-    flex-direction:column;
-    background-color: #49474f;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    border-radius: 10px;
-    overflow: hidden;
-    max-width: 100%;
-    padding: 80px 80px; 
-    margin: 40px ; 
-  }
+.DavysGray .heading {
+  color: #f7f7f7;
+}
 
-  .DavysGray .heading{
-    color: #f7f7f7; 
-  }
+.DavysGray p {
+  color: #f7f7f7;
+}
 
-  .DavysGray p{
-    color: #f7f7f7; 
-  }
+.AbrilHeader {
+  font-family: "Abril Fatface";
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-  .AbrilHeader{
-    font-family: 'Abril Fatface';
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+.ArimoHeader {
+  font-family: "Arimo";
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-  .ArimoHeader{
-    font-family: 'Arimo';
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+.Numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 20px 0;
+  font-family: "Montserrat";
+  flex-wrap: wrap;
+}
 
-  .Fonts{
-    display: flex;
-    flex-direction:column;
-    background-color: #f7f7f7;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    border-radius: 10px;
-    overflow: hidden;
-    max-width: 100%;
-    padding: 80px 80px; 
-    margin: 40px ; 
-  }
+.Numbers a {
+  text-decoration: none;
+  color: #5a4233;
+  background-color: #fdf6ec;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  min-width: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 
-  .Header{
-    display: flex;
-    flex-direction:column;
-    background-color: #f7f7f7;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    border-radius: 10px;
-    overflow: hidden;
-    max-width: 100%;
-    padding: 80px 80px; 
-    margin: 40px ; 
-  }
+.Numbers a:hover {
+  background-color: #e9dccd;
+}
 
-  .Numbers{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-top: 40px;
-    padding: 20px 0;
-    font-family: 'Montserrat'; 
-    flex-wrap: wrap; 
-   }
+.Numbers a.active {
+  background-color: #d1bfa7;
+  color: white;
+  font-weight: bold;
+}
 
-   .Numbers a{
-    text-decoration: none;
-    color: #5a4233;
-    background-color: #fdf6ec;
-    padding: 10px 16px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
-    font-weight: 500;
-    min-width: 40px; 
-    text-align: center; 
-    justify-content: center;
-    align-items: center;
-   }
-
-   .Numbers a:hover{
-    background-color: #e9dccd;
-   }
-
-   .Numbers a.active{
-    background-color: #d1bfa7;
-    color: white;
-    font-weight: bold;
-   }
-
-   .Numbers .arrow{
-    font-weight: bold;
-    background-color: #d3c3ae; 
-    color: #fff; 
-   }
+.Numbers .arrow {
+  font-weight: bold;
+  background-color: #d3c3ae;
+  color: #fff;
+}
