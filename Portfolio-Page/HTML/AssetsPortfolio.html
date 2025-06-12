@@ -1,170 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <meta name="author" content="Timothy Chilezi">
-    <meta name="description" content="This page is dedicated to my Portfolio!">
-    <link rel="stylesheet" href="../css/Main.css">
-    <link rel="stylesheet" href="../css/Normalize.css">
-    <link rel="stylesheet" href="../Portfolio/Assets.css">
-    <script src="https://kit.fontawesome.com/dddfa338de.js" crossorigin="anonymous"></script>
-    <script src="../css/Main.js"></script>
-    <link rel="stylesheet" href="../Portfolio/Portfolio.css">
-    <script src="../Portfolio/Portfolio.js"></script>
+    <meta name="author" content="Timothy Chilezi" />
+    <meta
+      name="description"
+      content="This page is dedicated to my Portfolio!"
+    />
+    <link rel="stylesheet" href="../../Main/Main.css" />
+    <link rel="stylesheet" href="../../Main/Normalize.css" />
+    <link rel="stylesheet" href="../CSS/Portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/dddfa338de.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../Main/Main.js"></script>
+    <link rel="stylesheet" href="../../Portfolio-Page/CSS/Portfolio.css" />
+    <script src="../Script/Portfolio.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav role="navigation">
+        <input type="checkbox" name="" id="check" />
+        <label for="check" class="ThreeBars"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+        <label for="logo" class="logo">Timothy Chilezi</label>
+        <img src="../DesignSectionStuff/Images/Logo.jpg" id="logo" />
+        <ul>
+          <li><a href="../../Home-Page/HTML/index.html">Home</a></li>
+          <li>
+            <a href="../../Blog-Pages/HTML/BlogHomePage.html">Blog Page</a>
+          </li>
+          <li>
+            <a href="../../Profile-Page/HTML/AboutMePage.html">Profile</a>
+          </li>
+          <li>
+            <a href="../../Design-Section-Page/HTML/DesignHomepage.html"
+              >Design Section</a
+            >
+          </li>
+          <li>
+            <a href="../../Essay-Section/HTML/EssaysHomepage.html"
+              >Essays Section</a
+            >
+          </li>
+          <li>Portfolio</li>
+        </ul>
+      </nav>
+    </header>
 
-</head>
-<body>
-<header>
-        <nav role="navigation">
-            <input type="checkbox" name="" id="check">
-            <label for="check" class="ThreeBars"><i class="fa-solid fa-bars"></i></label>
-            <label for="logo" class="logo">Timothy Chilezi</label>
-            <img src="../DesignSectionStuff/Images/Logo.jpg" id="logo">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href= "../Blogs/BlogHomePage.html">Blog Page</a> </li>
-                <li><a href= "../Profile/AboutMePage.html">Profile</a></li>
-                <li><a href= "../DesignSection/DesignHomepage.html">Design Section</a></li>
-                <li><a href= "../Essays/EssaysHomepage.html">Essays Section</a></li>
-                <li>Portfolio</li> 
-            </ul>
-        </nav>      
-</header>
+    <section class="slider">
+      <div
+        class="slide active"
+        style="
+          background-image: url('../DesignSectionStuff/Images/Screenshot47.png');
+        "
+      >
+        <div class="overlay"></div>
+        <h2>Blender Assets</h2>
+      </div>
+    </section>
 
-<section class="slider">
-  <div class="slide active" style="background-image: url('../DesignSectionStuff/Images/Screenshot47.png');">
-    <div class="overlay"></div>
-    <h2>Blender Assets</h2>
-  </div>
-</section>
+    <section class="Description">
+      <p class="Heading">Blender is Fun!</p>
+      <p class="Brief">
+        See how fun creating assets is. You can literally make ANYTHING!
+      </p>
+    </section>
 
-<section class="Description">
-    <P class="Heading">
-        Blender is Fun!
-    </P>
-        <p class="Brief">
-           See how fun creating assets is. You can literally make ANYTHING!
-        </p>
-</section>
-
-<main>
-    <h2>
-        Blender Assets
-    </h2>
-    <div class="portfolio-grid">
+    <main>
+      <h2>Blender Assets</h2>
+      <div class="portfolio-grid">
         <div class="portfolio-item">
-            <video class="asset-video" autoplay muted loop playsinline>
-               <source src="../GIFs/WallsVideo.mp4" type="video/mp4">
-            </video>
-            
-            <div class="portfolio-content">
-                <h3>Brick Wall</h3>
-                <p>This is a brick wall asset that was made in blender which I used for my walls in my First Person Shooter Prototype.</p>
-            </div>
-        </div>
-    </div>
+          <video class="asset-video" autoplay muted loop playsinline>
+            <source src="../GIFs/WallsVideo.mp4" type="video/mp4" />
+          </video>
 
-    <div class="portfolio-grid">
+          <div class="portfolio-content">
+            <h3>Brick Wall</h3>
+            <p>
+              This is a brick wall asset that was made in blender which I used
+              for my walls in my First Person Shooter Prototype.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-grid">
         <div class="portfolio-item">
-            <video class="asset-video" autoplay muted loop playsinline>
-               <source src="../GIFs/FanBlend.mp4" alt="Fan Asset">
-            </video>
-            
-            <div class="portfolio-content">
-                <h3>Fan</h3>
-                <p>This is a fan that was made in Blender, created more as a placeholder object for a house setting.</p>
-            </div>
-        </div>
-    </div>
+          <video class="asset-video" autoplay muted loop playsinline>
+            <source src="../GIFs/FanBlend.mp4" alt="Fan Asset" />
+          </video>
 
-    <div class="portfolio-grid">
+          <div class="portfolio-content">
+            <h3>Fan</h3>
+            <p>
+              This is a fan that was made in Blender, created more as a
+              placeholder object for a house setting.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-grid">
         <div class="portfolio-item">
-            <video class="asset-video" autoplay muted loop playsinline>
-               <source src="../GIFs/GrassBlend.mp4" alt="Grass Asset">
-            </video>
-            
-            <div class="portfolio-content">
-                <h3>Grass</h3>
-                <p>This asset was made from pure exploration and curiosity, where I wanted to see how grass can be made in Blender.</p>
-            </div>
-        </div>
-    </div>
+          <video class="asset-video" autoplay muted loop playsinline>
+            <source src="../GIFs/GrassBlend.mp4" alt="Grass Asset" />
+          </video>
 
-    <div class="portfolio-grid">
+          <div class="portfolio-content">
+            <h3>Grass</h3>
+            <p>
+              This asset was made from pure exploration and curiosity, where I
+              wanted to see how grass can be made in Blender.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-grid">
         <div class="portfolio-item">
-            <video class="asset-video" autoplay muted loop playsinline>
-               <source src="../GIFs/GuitarBlend.mp4" alt="Guitar Asset">
-            </video>
-            
-            <div class="portfolio-content">
-                <h3>Guitar</h3>
-                <p>This is a guitar asset I made as part of a holiday project for a Guitar playing game.</p>
-            </div>
-        </div>
-    </div>
+          <video class="asset-video" autoplay muted loop playsinline>
+            <source src="../GIFs/GuitarBlend.mp4" alt="Guitar Asset" />
+          </video>
 
-    <div class="portfolio-grid">
+          <div class="portfolio-content">
+            <h3>Guitar</h3>
+            <p>
+              This is a guitar asset I made as part of a holiday project for a
+              Guitar playing game.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-grid">
         <div class="portfolio-item">
-            <video class="asset-video" autoplay muted loop playsinline>
-               <source src="../GIFs/LaptopBlend.mp4" alt="Laptop Asset">
-            </video>
-            
-            <div class="portfolio-content">
-                <h3>Laptop</h3>
-                <p>This is a laptop made on Blender, which was used as a placeholder asset for a holiday game project.</p>
-            </div>
-        </div>
-    </div> 
-</main>
+          <video class="asset-video" autoplay muted loop playsinline>
+            <source src="../GIFs/LaptopBlend.mp4" alt="Laptop Asset" />
+          </video>
 
-<div class="Numbers">
-    <a href="GamesPortfolio.html" class="prev-next">Previous</a>
-  
+          <div class="portfolio-content">
+            <h3>Laptop</h3>
+            <p>
+              This is a laptop made on Blender, which was used as a placeholder
+              asset for a holiday game project.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="Numbers">
+      <a href="GamesPortfolio.html" class="prev-next">Previous</a>
+
       <a href="DrawingsPortfolio.html">Drawings</a>
       <a href="WritingPorfolio.html">Writing</a>
       <a href="GamesPortfolio.html">Games</a>
       <a href="AssetsPortfolio.html" class="active">Assets</a>
-      
-  
+
       <a href="DrawingsPortfolio.html" class="prev-next">Next</a>
-  </div>
+    </div>
 
-
-
-<footer class="footer">
-    <ul class="footer-links">
+    <footer class="footer">
+      <ul class="footer-links">
         <li>
-            <a href="mailto:timothychilezi@gmail.com">
+          <a href="mailto:timothychilezi@gmail.com">
             <i class="fa-solid fa-envelope"></i>
-            </a>
+          </a>
         </li>
 
         <li>
-            <a href="https://www.linkedin.com/in/timothy-chilezi-8b7ba8351/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/timothy-chilezi-8b7ba8351/"
+            target="_blank"
+          >
             <i class="fa-brands fa-linkedin"></i>
-            </a>
+          </a>
         </li>
-        
+
         <li>
-            <a href="https://github.com/timothychilezi20" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
+          <a href="https://github.com/timothychilezi20" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
         </li>
-        
-    </ul>
+      </ul>
 
-     <button id="scrollToTopBtn" title="Go to top">
-  ↑
-    </button>
+      <button id="scrollToTopBtn" title="Go to top">↑</button>
 
-    <p class="copyright">
-        Timothy Chilezi (2025). All Rights Reserved.
-    </p>
-</footer>
-
-
-
-</body>
+      <p class="copyright">Timothy Chilezi (2025). All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
