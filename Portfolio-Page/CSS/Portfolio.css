@@ -49,39 +49,48 @@ h2 {
 .portfolio-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
   justify-content: center;
+  padding: 40px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .portfolio-item {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: #fff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   border-radius: 12px;
   overflow: hidden;
-  max-width: 550px;
+  max-width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-item img {
-  width: 50%;
+  width: 100%;
+  height: 200px;
   object-fit: cover;
+  border-bottom: 1px solid #eee;
 }
 
 .portfolio-content {
-  padding: 20px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 50%;
+  flex-grow: 1;
 }
 
-.portfolio-content a {
-  text-decoration: none;
-  color: #5a4233;
-  font-size: 1.2em;
-  font-weight: bold;
-  font-family: "Montserrat";
+.portfolio-content p {
+  margin-bottom: 20px;
+  color: #666;
+  line-height: 1.5;
+  flex-grow: 1;
 }
 
 .portfolio-content h3 {
@@ -132,6 +141,7 @@ h2 {
 }
 
 #Games {
+  all: unset;
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
@@ -158,6 +168,7 @@ h2 {
 }
 
 #Drawings {
+  all: unset;
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
@@ -184,6 +195,7 @@ h2 {
 }
 
 #Writing {
+  all: unset;
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
@@ -210,6 +222,7 @@ h2 {
 }
 
 #Assets {
+  all: unset;
   text-decoration: none;
   color: #5a4233;
   background-color: #fdf6ec;
