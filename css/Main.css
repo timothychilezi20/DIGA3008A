@@ -92,31 +92,47 @@ nav ul li a.active {
 
   nav ul {
     position: fixed;
-    top: 50px;
+    top: 0;
     right: -80%;
-    width: 50%;
+    width: 60%;
     height: 100vh;
     background-color: #afa491;
     text-align: center;
     z-index: 1000;
-    padding-top: 60px;
+    padding-top: 80px;
     transition: right 0.4s ease;
     display: flex;
     flex-direction: column;
     gap: 30px;
   }
 
-  nav ul.li {
-    display: block;
-    font-size: 20px;
-    font-family: "Montserrat";
-    font-weight: bold;
-    color: #f7f7f7;
+  .closeMenu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 2.5rem;
+    color: white;
+    cursor: pointer;
+    z-index: 1101;
+    display: none;
+  }
+
+  nav ul li {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
   }
 
   nav ul li a {
     color: #f7f7f7;
     text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+
+  nav ul li a.active {
+    font-weight: bold;
+    color: #3e3e3e;
   }
 
   nav ul li a:hover {
@@ -131,7 +147,7 @@ nav ul li a.active {
     position: fixed;
     top: 0;
     left: 0;
-    width: 60vw;
+    width: 100vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(4px);
@@ -139,11 +155,17 @@ nav ul li a.active {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.4s ease;
+    display: none;
   }
 
   #check:checked ~ .menu-overlay {
+    display: block;
     opacity: 1;
     pointer-events: auto;
+  }
+
+  #check:checked ~ .closeMenu {
+    display: block;
   }
 }
 
@@ -257,6 +279,16 @@ footer ul li {
   font-size: 60px;
   text-align: center;
   z-index: 0;
+}
+
+@media (max-width: 600px) {
+  .slider {
+    height: 300px;
+  }
+
+  .slide {
+    font-size: 30px;
+  }
 }
 
 .slide h2 {

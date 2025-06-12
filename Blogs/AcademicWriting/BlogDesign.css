@@ -605,8 +605,8 @@ h2 {
 
 .menuIcon {
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 18vh;
+  left: 2vh;
   font-size: 2rem;
   color: #222;
   background: white;
