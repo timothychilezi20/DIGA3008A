@@ -1,19 +1,19 @@
 document.addEventListener("DOMContentLoaded", () => {
   const goToPage = {
-    Week1: "AcademicWriting/Week1.html",
-    Week2: "AcademicWriting/Week2.html",
-    Week3: "AcademicWriting/Week3.html",
-    Week4: "AcademicWriting/Week4.html",
-    Week5: "AcademicWriting/Week5.html",
-    Week6: "AcademicWriting/Week6.html",
-    Week7: "AcademicWriting/Week7.html",
-    Week8: "AcademicWriting/Week8.html",
-    Week9: "AcademicWriting/Week9.html",
-    Week10: "AcademicWriting/Week10.html",
-    Week11: "AcademicWriting/Week11.html",
-    Week12: "AcademicWriting/Week12.html",
-    Week13: "AcademicWriting/Week13.html",
-    Week14: "AcademicWriting/Week14.html",
+    Week1: "Week1.html",
+    Week2: "Week2.html",
+    Week3: "Week3.html",
+    Week4: "Week4.html",
+    Week5: "Week5.html",
+    Week6: "Week6.html",
+    Week7: "Week7.html",
+    Week8: "Week8.html",
+    Week9: "Week9.html",
+    Week10: "Week10.html",
+    Week11: "Week11.html",
+    Week12: "Week12.html",
+    Week13: "Week13.html",
+    Week14: "Week14.html",
   };
 
   Object.keys(goToPage).forEach((buttonId) => {
