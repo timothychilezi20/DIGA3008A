@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const goToPage = {
     EthicsEssay: "../HTML/EthicsEssay.html",
-    GeopoliticsEssay:">../HTML/Essay2.html", 
+    GeopoliticsEssay: "../HTML/Essay2.html",
   };
 
   Object.keys(goToPage).forEach((buttonId) => {
