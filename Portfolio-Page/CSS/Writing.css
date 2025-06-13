@@ -168,7 +168,7 @@ body {
   padding: 2.5rem;
   max-width: 31.25rem;
   width: 90%;
-  max-height: 90vh;
+  max-height: 70vh;
   overflow-y: auto;
   position: relative;
   transform: scale(0.9) translateY(1.25rem);
@@ -210,7 +210,7 @@ body {
 .contact-icon {
   width: 5rem;
   height: 5rem;
-  background-color: var(--highlight-color);
+  background-color: #5a4233;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -222,7 +222,7 @@ body {
 }
 
 .contact-title {
-  font-family: "Fraunces", serif;
+  font-family: "Montserrat";
   font-size: 1.75rem;
   font-weight: 600;
   color: #333;
@@ -230,7 +230,7 @@ body {
 }
 
 .contact-subtitle {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat";
   color: #666;
   font-size: 0.95rem;
   line-height: 1.5;
@@ -249,7 +249,7 @@ body {
 }
 
 .form-label {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat";
   font-weight: 500;
   color: #333;
   font-size: 0.9rem;
@@ -261,7 +261,7 @@ body {
   border: 0.125rem solid #e0e0e0;
   border-radius: 0.75rem;
   background: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat";
   font-size: 0.95rem;
   color: #333;
   transition: all 0.2s ease;
@@ -286,7 +286,7 @@ body {
   border: none;
   padding: 1rem 2rem;
   border-radius: 0.75rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat";
   font-weight: 500;
   font-size: 1rem;
   cursor: pointer;
@@ -334,4 +334,3 @@ body {
   background-color: #7a5b44;
   transform: scale(1.1);
 }
-

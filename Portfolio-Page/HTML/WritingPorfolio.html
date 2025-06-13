@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="../../Main/Main.css" />
     <link rel="stylesheet" href="../../Main/Normalize.css" />
-    <link rel="stylesheet" href="../CSS/Portfolio.css" />
+    <link rel="stylesheet" href="../CSS/Writing.css" />
     <script
       src="https://kit.fontawesome.com/dddfa338de.js"
       crossorigin="anonymous"
@@ -159,4 +159,108 @@
       <iframe id="pdfViewer" src="" frameborder="0"></iframe>
     </div>
   </body>
+
+  <button class="FormButton" id="formButton" aria-label="Open Form Button">
+    <i class="fa-solid fa-envelope"></i>
+  </button>
+
+  <section
+    class="contact-overlay"
+    id="contactOverlay"
+    role="dialog"
+    aria-labelledby="contactTitle"
+    aria-hidden="true"
+  >
+    <section class="contact-popup">
+      <button
+        class="contact-close"
+        id="contactClose"
+        aria-label="Close contact form"
+      >
+        ×
+      </button>
+
+      <section class="contact-header">
+        <section class="contact-icon">
+          <i class="fas fa-envelope"></i>
+        </section>
+        <h2 class="contact-title" id="contactTitle">Talk to Me!</h2>
+        <p class="contact-subtitle">
+          Let me know your experiences with my projects.
+        </p>
+      </section>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <section class="form-group">
+          <label class="form-label" for="contactName">Name *</label>
+          <input
+            type="text"
+            id="contactName"
+            name="name"
+            class="form-input"
+            required
+            autocomplete="name"
+            placeholder="e.g. Dollarpho Davhana"
+          />
+        </section>
+
+        <section class="form-group">
+          <label class="form-label" for="contactEmail">Email *</label>
+          <input
+            type="email"
+            id="contactEmail"
+            name="email"
+            class="form-input"
+            required
+            autocomplete="email"
+            placeholder="e.g. dollarphodavhana@gmail.com"
+          />
+        </section>
+
+        <section class="form-group">
+          <label class="form-label" for="contactSubject">Subject</label>
+          <input
+            type="text"
+            id="contactSubject"
+            name="subject"
+            class="form-input"
+            placeholder="What's this about?"
+          />
+        </section>
+
+        <section class="form-group">
+          <label class="form-label" for="contactFeedback">Feedback *</label>
+          <textarea
+            id="contactFeedback"
+            name="feedback"
+            class="form-textarea"
+            required
+            placeholder="How do you feel about the projects? Pop in!"
+          ></textarea>
+        </section>
+
+        <section class="form-group">
+          <label class="form-label" for="contactRecommendations"
+            >Recommendations</label
+          >
+          <textarea
+            id="contactRecommendations"
+            name="recommendations"
+            class="form-textarea"
+            placeholder="Recommend Games & Books for me"
+          ></textarea>
+        </section>
+
+        <button type="submit" class="form-submit" id="submitButton">
+          <span class="submit-text">Send Message</span>
+        </button>
+
+        <section
+          class="form-message"
+          id="formMessage"
+          style="display: none"
+        ></section>
+      </form>
+    </section>
+  </section>
 </html>

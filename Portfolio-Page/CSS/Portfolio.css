@@ -383,19 +383,19 @@ h2 {
 .contact-icon {
   width: 5rem;
   height: 5rem;
-  background-color: var(--highlight-color);
+  background-color: #5a4233;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 1rem;
   font-size: 2rem;
-  color: #fff;
+  color: #5a4233;
   box-shadow: 0 0.5rem 1rem rgba(230, 185, 128, 0.3);
 }
 
 .contact-title {
-  font-family: "Fraunces", serif;
+  font-family: "Montserrat";
   font-size: 1.75rem;
   font-weight: 600;
   color: #333;
@@ -537,7 +537,7 @@ h2 {
   padding: 2.5rem;
   max-width: 31.25rem;
   width: 90%;
-  max-height: 90vh;
+  max-height: 70vh;
   overflow-y: auto;
   position: relative;
   transform: scale(0.9) translateY(1.25rem);
@@ -579,7 +579,7 @@ h2 {
 .contact-icon {
   width: 5rem;
   height: 5rem;
-  background-color: var(--highlight-color);
+  background-color: #5a4233;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -591,7 +591,7 @@ h2 {
 }
 
 .contact-title {
-  font-family: "Fraunces", serif;
+  font-family: "Montserrat";
   font-size: 1.75rem;
   font-weight: 600;
   color: #333;
@@ -599,7 +599,7 @@ h2 {
 }
 
 .contact-subtitle {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat";
   color: #666;
   font-size: 0.95rem;
   line-height: 1.5;
@@ -618,7 +618,7 @@ h2 {
 }
 
 .form-label {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat";
   font-weight: 500;
   color: #333;
   font-size: 0.9rem;
@@ -630,7 +630,7 @@ h2 {
   border: 0.125rem solid #e0e0e0;
   border-radius: 0.75rem;
   background: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat";
   font-size: 0.95rem;
   color: #333;
   transition: all 0.2s ease;
@@ -655,7 +655,7 @@ h2 {
   border: none;
   padding: 1rem 2rem;
   border-radius: 0.75rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat";
   font-weight: 500;
   font-size: 1rem;
   cursor: pointer;
