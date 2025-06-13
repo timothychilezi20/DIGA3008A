@@ -156,6 +156,111 @@
       <p class="copyright">Timothy Chilezi (2025). All Rights Reserved.</p>
     </footer>
 
+    <button class="FormButton" id="formButton" aria-label="Open Form Button">
+      <i class="fa-solid fa-envelope"></i>
+    </button>
+
+    <section
+      class="contact-overlay"
+      id="contactOverlay"
+      role="dialog"
+      aria-labelledby="contactTitle"
+      aria-hidden="true"
+    >
+      <section class="contact-popup">
+        <button
+          class="contact-close"
+          id="contactClose"
+          aria-label="Close contact form"
+        >
+          ×
+        </button>
+
+        <section class="contact-header">
+          <section class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </section>
+          <h2 class="contact-title" id="contactTitle">Talk to Me!</h2>
+          <p class="contact-subtitle">
+            What did you think of my work? I'd love to hear your thoughts,
+            feedback, or you know... just say hello!
+          </p>
+        </section>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <section class="form-group">
+            <label class="form-label" for="contactName">Name *</label>
+            <input
+              type="text"
+              id="contactName"
+              name="name"
+              class="form-input"
+              required
+              autocomplete="name"
+              placeholder="Your name"
+            />
+          </section>
+
+          <section class="form-group">
+            <label class="form-label" for="contactEmail">Email *</label>
+            <input
+              type="email"
+              id="contactEmail"
+              name="email"
+              class="form-input"
+              required
+              autocomplete="email"
+              placeholder="youremail@whatever.com"
+            />
+          </section>
+
+          <section class="form-group">
+            <label class="form-label" for="contactSubject">Subject</label>
+            <input
+              type="text"
+              id="contactSubject"
+              name="subject"
+              class="form-input"
+              placeholder="What's this about?"
+            />
+          </section>
+
+          <section class="form-group">
+            <label class="form-label" for="contactFeedback">Feedback *</label>
+            <textarea
+              id="contactFeedback"
+              name="feedback"
+              class="form-textarea"
+              required
+              placeholder="Tell me what you think about my projects, ask questions, or just say hi!"
+            ></textarea>
+          </section>
+
+          <section class="form-group">
+            <label class="form-label" for="contactRecommendations"
+              >Recommendations</label
+            >
+            <textarea
+              id="contactRecommendations"
+              name="recommendations"
+              class="form-textarea"
+              placeholder="Recommend games & books for me"
+            ></textarea>
+          </section>
+
+          <button type="submit" class="form-submit" id="submitButton">
+            <span class="submit-text">Send Message</span>
+          </button>
+
+          <section
+            class="form-message"
+            id="formMessage"
+            style="display: none"
+          ></section>
+        </form>
+      </section>
+    </section>
+
     <div id="lightbox-overlay" class="hidden">
       <div class="lightbox-content">
         <span id="lightbox-close">&times;</span>
