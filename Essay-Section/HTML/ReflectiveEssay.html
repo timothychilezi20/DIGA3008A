@@ -1,162 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="author" content="Timothy Chilezi">
-    <meta name="description" content="This page is for my Reflective Essay in my Essay Section!">
-     <link rel="stylesheet" href="../../Main/Main.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reflective Essay</title>
+    <meta name="author" content="Timothy Chilezi" />
+    <meta
+      name="description"
+      content="This page is for my Reflective Essay in my Essay Section!"
+    />
+    <link rel="stylesheet" href="../../Main/Main.css" />
     <link rel="stylesheet" href="../../Main/Normalize.css" />
     <link rel="stylesheet" href="../CSS/Essays.css" />
     <script
       src="https://kit.fontawesome.com/dddfa338de.js"
       crossorigin="anonymous"
     ></script>
-    <script src="../../Main/Main.js"></script>
-    <script src="../Script/Essay.js"></script>
-</head>
-<header>
-    <nav>
-    <input type="checkbox" name="" id="check">
-            <label for="check" class="ThreeBars"><i class="fa-solid fa-bars"></i></label>
-            <label for="logo" class="logo">Timothy Chilezi</label>
-            <label for="check" class="closeMenu" hidden>✕</label>
-            <label for="check" class="menu-overlay"></label>
-            <img src="../../DesignSectionStuff/Logo.jpg" id="logo">
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-        <li><a href="../../Blog-Pages/HTML/BlogHomePage.html">Blog Page</a></li>
-        <li><a href="../../Profile-Page/HTML/AboutMePage.html">Profile</a></li>
-        <li>
-          <a href="../../Design-Section-Page/HTML/DesignHomepage.html"
-            >Design Section</a
-          >
-        </li>
-        <li>Essays Section</li>
-        <li>
-          <a href="../../Portfolio-Page/HTML/Portfolio.html"> Portfolio </a>
-        </li>
-            </ul>
-            </nav>
-</header>
+    <script src="../../Main/Main.js" defer></script>
+    <script src="../Script/Essay.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="ThreeBars"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+        <label class="logo">Timothy Chilezi</label>
+        <img src="../../DesignSectionStuff/Logo.jpg" id="logo" alt="Logo" />
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li>
+            <a href="../../Blog-Pages/HTML/BlogHomePage.html">Blog Page</a>
+          </li>
+          <li>
+            <a href="../../Profile-Page/HTML/AboutMePage.html">Profile</a>
+          </li>
+          <li>
+            <a href="../../Design-Section-Page/HTML/DesignHomepage.html"
+              >Design Section</a
+            >
+          </li>
+          <li class="active">Essays Section</li>
+          <li>
+            <a href="../../Portfolio-Page/HTML/Portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<div id="overlay" class="overlay hidden"></div>
+    <div id="overlay" class="overlay hidden"></div>
 
-<section class="slider">
-  <div class="slide active" style="background-image: url('../../DesignSectionStuff/ReflectiveEssayImage.jpg');">
-    <div class="overlay"></div>
-    <h2>A Reflective Essay on the Website Implementation</h2>
-  </div>
-</section>
+    <section class="slider">
+      <div
+        class="slide active"
+        style="
+          background-image: url('../../DesignSectionStuff/ReflectiveEssayImage.jpg');
+        "
+      >
+        <div class="overlay"></div>
+        <h2>A Reflective Essay on the Website Implementation</h2>
+      </div>
+    </section>
 
-<section class="Essay">
-<div class="heading">
-    <h3>Reflection on the Implementation of the Website</h3>
-</div>
+    <main>
+      <section class="Essay">
+        <div class="heading">
+          <h3>Reflection on the Implementation of the Website</h3>
+        </div>
+        <p>
+          Interactive Media, Semester 1 has taught me the basics behind what it
+          is to build a website and throughout the experience I have learned to
+          understand that web development requires strong focus behind specific
+          elements which will result in a fully fledged product. Throughout
+          website development, I have gotten to understand the basics behind the
+          concepts of strong design principles with the incorporation of User
+          Interface and User Experience. This website required thorough thought
+          and design consideration, making sure that I had to understand the
+          importance of structure and navigation and consider the experience of
+          the users when taking steps to achieving a complete website. This
+          reflection will document the experience that I had making this website
+          and explain the processes of implementing HTML, CSS, JavaScript and a
+          relevant API. My aim was to create an elegant yet simple experience
+          where users would feel ease navigating through my website.
+        </p>
+      
 
-<P>
-    Interactive Media, Semester 1 has taught me the basics behind what it is to build a website and throughout the experience I have learned to understand that web development requires strong focus behind specific elements which will result in a fully fledged product. Throughout website development, I have gotten to understand the basics behind the concepts of strong design principles with the incorporation of User Interface and User Experience. This website required thorough thought and design consideration, making sure that I had to understand the importance of structure and navigation and consider the experience of the users when taking steps to achieving a complete website. This reflection will document the experience that I had making this website and explain the processes of implementing HTML, CSS, JavaScript and a relevant API. My aim was to create an elegant yet simple experience where users would feel ease navigating through my website.
-</P> 
-</section>
+        <div class="heading">
+          <h3>Folder Structure</h3>
+        </div>
+        <p>
+          The beginning of my website served as a very challenging experience as
+          I had to first understand what a folder structure truly is. I found
+          out that the folder structure is essential towards the way that we
+          link our files and yet, I did not understand how to implement a neat
+          folder structure and hence this served as a challenge for the
+          consistency of my website. My folder structure before this consisted
+          of all my pages in folders, so I had a separate file for each part of
+          my folder so, there was even, in reference to the feedback that I had
+          received, html and JavaScript in a folder titled CSS. In simple terms,
+          the folder structure was a mess. I therefore nested my folder
+          structure according to each of the separate pages that I have for my
+          website and therefore had a structure of, for example, Home-Page >
+          HTML, CSS, Script, Images. Each of the designated pages on my website
+          have this structure and anything related to the designated page, from
+          HTML, CSS and JavaScript, each of these were placed in a specific
+          folder. This accounted for a more consistent coding system where I was
+          able to easily work with the folder structures and therefore the
+          process of linking and calling pages and referencing images. The
+          naming conventions of the files follow a consistent manner, using
+          dash-case/kebab-case as the main naming convention for the files that
+          I had. This was to keep in mind the fact that I wanted the process of
+          working on my website easier and for anyone who navigates my website
+          to further understand it.
+        </p>
+    
+    
+ <div class="heading">
+          <h3>Semantic Markup</h3>
+           <P>
+            The Semantic Markup of the website was a crucial component in forming the structure of my website and with these components, it was easier to section parts of the website. The semantic markup elements such as header, nav, section, and footer provided the structure required to build the website forward and with this semantic markup, there is more context provided about what each part of the website is about and the overall functionality behind it. The use of nav indicates the navigation menu container and with the container and navigation, it is easier to understand what each part of the website is about, and we therefore know that whatever is contained underneath the nav markup is allocated towards the navigation bar/menu. Elements such as the description section were wrapped in the section tags, so that it was easier to reference texts in paragraphs and place them in containers based on the information that each part of the website holds. The footer was meant to contain links for my social media links and copyright information and this serves as consistent location across all pages for any contact details/information for the user to find. There were div tags used to separate sections on my pages, but these were the smaller sections such as buttons and headings. 
+        </P>
+        </div>
+       
 
-<section class = "Essay">
-<div class="heading">
-    <h3>Folder Structure</h3>
-</div>
-
-<P>
-    The beginning of my website served as a very challenging experience as I had to first understand what a folder structure truly is. I found out that the folder structure is essential towards the way that we link our files and yet, I did not understand how to implement a neat folder structure and hence this served as a challenge for the consistency of my website. My folder structure before this consisted of all my pages in folders, so I had a separate file for each part of my folder so, there was even, in reference to the feedback that I had received, html and JavaScript in a folder titled CSS. In simple terms, the folder structure was a mess. I therefore nested my folder structure according to each of the separate pages that I have for my website and therefore had a structure of, for example, Home-Page > HTML, CSS, Script, Images. Each of the designated pages on my website have this structure and anything related to the designated page, from HTML, CSS and JavaScript, each of these were placed in a specific folder. This accounted for a more consistent coding system where I was able to easily work with the folder structures and therefore the process of linking and calling pages and referencing images. The naming conventions of the files follow a consistent manner, using dash-case/kebab-case as the main naming convention for the files that I had. This was to keep in mind the fact that I wanted the process of working on my website easier and for anyone who navigates my website to further understand it. 
-</P>
-</section>
-
-<section class = "Essay">
-<div class="heading">
-    <h3>Semantic Markup</h3>
-</div>
-
-<P>
-    The Semantic Markup of the website was a crucial component in forming the structure of my website and with these components, it was easier to section parts of the website. The semantic markup elements such as <header>, <nav>, <section>, and <footer> provided the structure required to build the website forward and with this semantic markup, there is more context provided about what each part of the website is about and the overall functionality behind it. The use of <nav> indicates the navigation menu container and with the container and navigation, it is easier to understand what each part of the website is about, and we therefore know that whatever is contained underneath the <nav> markup is allocated towards the navigation bar/menu. Elements such as the description section were wrapped in the section tags, so that it was easier to reference texts in paragraphs and place them in containers based on the information that each part of the website holds. The <footer> was meant to contain links for my social media links and copyright information and this serves as consistent location across all pages for any contact details/information for the user to find. There were <div> tags used to separate sections on my pages, but these were the smaller sections such as buttons and headings. 
-</P>
-</section>
-
-<section class="Essay">
 <div class="heading">
     <h3>Metadata</h3>
+    <P>
+     The metadata that I included for the website was specific to giving the pages of my website a description of sorts and  title using the title and meta name=”description” tags. Then, included in the metadata is the tags meta charset=”UTF-8” and meta name=”viewport” and this is meant to support the rendering and responsiveness across different devices that the website is displayed on. The author names, also were important to implement as I only implemented that at a later stage of the website’s development and therefore, understood the functionality behind having author section in the metadata. I learned that this was to ensure that browsers and search engines fully understand and can interpret the content on the website. 
+</P>
 </div>
 
-<P>
-    The metadata that I included for the website was specific to giving the pages of my website a description of sorts and  title using the <title> and <meta name=”description”> tags. Then, included in the metadata is the tags <meta charset=”UTF-8”> and <eta name=”viewport”> and this is meant to support the rendering and responsiveness across different devices that the website is displayed on. The author names, also were important to implement as I only implemented that at a later stage of the website’s development and therefore, understood the functionality behind having author section in the metadata. I learned that this was to ensure that browsers and search engines fully understand and can interpret the content on the website. 
-</P>
-</section>
-
-<section class="Essay">
 <div class="heading">
     <h3>CSS</h3>
+    <P>
+        The Cascading Style Sheets play a very vital role in stylizing the HTML that you have set out on the website hence it is important to make sure that the HTML is structured correctly to ensure a near seamless and manageable process of styling your website. At first, I had all my CSS in designated files according to the website pages but the worst thing of all was that I specifically had CSS for all blog pages, from week 1 to 14, but then all of these pages were near the same. This was advised against completely and I had to make a main CSS folder to contain the code that was similar across all the blog and other pages on my website. A main CSS folder created consistency and ensured that my website maintained the same look and formatting regardless of what page you are on. Although I do feel like the responsiveness of my website could have been better, especially where there are parts that have one word on each line. Besides that, the hamburger menu works quite well on the phone even though there is overlapping of the x button on the hamburger menu UI. The use of media queries across the website pages and specifically, the main CSS, had at least a reasonable responsive scale that at least made the website responsive on the phone. 
+    </P>
 </div>
-<P>
-     The Cascading Style Sheets play a very vital role in stylizing the HTML that you have set out on the website hence it is important to make sure that the HTML is structured correctly to ensure a near seamless and manageable process of styling your website. At first, I had all my CSS in designated files according to the website pages but the worst thing of all was that I specifically had CSS for all blog pages, from week 1 to 14, but then all of these pages were near the same. This was advised against completely and I had to make a main CSS folder to contain the code that was similar across all the blog and other pages on my website. A main CSS folder created consistency and ensured that my website maintained the same look and formatting regardless of what page you are on. Although I do feel like the responsiveness of my website could have been better, especially where there are parts that have one word on each line. Besides that, the hamburger menu works quite well on the phone even though there is overlapping of the x button on the hamburger menu UI. The use of media queries across the website pages and specifically, the main CSS, had at least a reasonable responsive scale that at least made the website responsive on the phone. 
-</P>
-</section>
 
-<section class="Essay">
 <div class="heading">
-    <h3>JavaScript</h3>
+    <h3>
+        JavaScript
+    </h3>
+
+    <P>
+       The JavaScript used across my website plays a key role in creating an interactive and responsive user interface. The form overlay functionality is controlled using ARIA attributes and class toggling to manage accessibility and visual state. When the user clicks the form button, the overlay becomes visible (aria-hidden="false"), and when clicking outside the form or the close icon, the overlay closes smoothly. This demonstrates how JavaScript can enhance modal interactions, keeping the experience intuitive and keyboard accessible. The form submission process is handled using async/await and the Fetch API, avoiding full-page reloads while still sending data to the server securely. By disabling the submit button during the request, and providing user feedback (green for success, red for error), the script ensures a user-friendly experience with clear communication. Errors are gracefully handled, distinguishing between response errors and network issues, and resetting the form upon success. 
+    </P>
 </div>
-<P>
-    The JavaScript used across my website plays a key role in creating an interactive and responsive user interface. The form overlay functionality is controlled using ARIA attributes and class toggling to manage accessibility and visual state. When the user clicks the form button, the overlay becomes visible (aria-hidden="false"), and when clicking outside the form or the close icon, the overlay closes smoothly. This demonstrates how JavaScript can enhance modal interactions, keeping the experience intuitive and keyboard accessible. The form submission process is handled using async/await and the Fetch API, avoiding full-page reloads while still sending data to the server securely. By disabling the submit button during the request, and providing user feedback (green for success, red for error), the script ensures a user-friendly experience with clear communication. Errors are gracefully handled, distinguishing between response errors and network issues, and resetting the form upon success.
-</P>
-</section>
+      
 
-<section class="Essay">
-<P>
-    Overall, this website reflects a thoughtful implementation of UI/UX principles, accessibility standards, and responsive development practices. It is not only a demonstration of technical growth, but also a foundation that can be built upon as future skills and design ideas evolve. Website creation is not just about making something look pretty, but it is about how we can use elements such as HTML, CSS and JavaScript to ensure that the website is functional and readable across all platforms. 
-</P>
-</section>
+      <section class="Essay">
+        <p>
+          Overall, this website reflects a thoughtful implementation of UI/UX
+          principles, accessibility standards, and responsive development
+          practices. It is not only a demonstration of technical growth, but
+          also a foundation that can be built upon as future skills and design
+          ideas evolve. Website creation is not just about making something look
+          pretty, but it is about how we can use elements such as HTML, CSS and
+          JavaScript to ensure that the website is functional and readable
+          across all platforms.
+        </p>
+      </section>
 
+      <div class="Numbers">
+        <a href="../../Essay-Section/HTML/EssaysHomepage.html" class="prev-next"
+          >Back</a
+        >
+        <a href="../../Essay-Section/HTML/EthicsEssay.html" class="prev-next"
+          >Ethics Essay</a
+        >
+        <a href="../../Essay-Section/HTML/Essay2.html" class="prev-next"
+          >Geopolitics Essay</a
+        >
+        <a
+          href="../../Essay-Section/HTML/ReflectiveEssay.html"
+          class="prev-next active"
+          >Reflection</a
+        >
+      </div>
+    </main>
 
-<div class="Numbers">
-    <a href="../../Essay-Section/HTML/EssaysHomepage.html" class="prev-next">Back</a>
-
-    <a href="../../Essay-Section/HTML/EthicsEssay.html" class="prev-next">Ethics Essay</a>
-
-    <a href="../../Essay-Section/HTML/Essay2.html" class="prev-next">Geopolitics Essay</a>
-
-    <a href="../../Essay-Section/HTML/ReflectiveEssay.html" class="active">Reflection</a>
-
-</div> 
-
-</main>
-
-
-<footer class="footer">
-    <ul class="footer-links">
+    <footer class="footer">
+      <ul class="footer-links">
         <li>
-            <a href="mailto:timothychilezi@gmail.com">
-            <i class="fa-solid fa-envelope"></i>
-            </a>
+          <a href="mailto:timothychilezi@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
         </li>
-
         <li>
-            <a href="https://www.linkedin.com/in/timothy-chilezi-8b7ba8351/" target="_blank">
-            <i class="fa-brands fa-linkedin"></i>
-            </a>
+          <a
+            href="https://www.linkedin.com/in/timothy-chilezi-8b7ba8351/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
         </li>
-        
         <li>
-            <a href="https://github.com/timothychilezi20" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
+          <a href="https://github.com/timothychilezi20" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
         </li>
-        
-    </ul>
-
-     <button id="scrollToTopBtn" title="Go to top">
-  ↑
-    </button>
-
-    <p class="copyright">
-        Timothy Chilezi (2025). All Rights Reserved.
-    </p>
-</footer>
+      </ul>
+      <button id="scrollToTopBtn" title="Go to top">↑</button>
+      <p class="copyright">Timothy Chilezi (2025). All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
