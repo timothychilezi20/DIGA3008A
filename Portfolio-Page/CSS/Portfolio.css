@@ -159,7 +159,6 @@ h2 {
   min-width: unset;
   max-width: fit-content;
   white-space: nowrap;
-  font-family: "Montserrat";
 }
 
 #Games:hover {
@@ -186,7 +185,6 @@ h2 {
   min-width: unset;
   max-width: fit-content;
   white-space: nowrap;
-  font-family: "Montserrat";
 }
 
 #Drawings:hover {
@@ -213,7 +211,6 @@ h2 {
   min-width: unset;
   max-width: fit-content;
   white-space: nowrap;
-  font-family: "Montserrat";
 }
 
 #Writing:hover {
@@ -240,7 +237,6 @@ h2 {
   min-width: unset;
   max-width: fit-content;
   white-space: nowrap;
-  font-family: "Montserrat";
 }
 
 #Assets:hover {
