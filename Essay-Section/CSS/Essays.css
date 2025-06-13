@@ -1,13 +1,16 @@
 .essay-section {
-  background: url("../DesignSectionStuff/Images/EssayImages.jpeg") no-repeat
-    center center;
-  background-size: cover;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 5%;
+  position: relative;
+    height: 600px; 
+    overflow: hidden;
+    color: #f7f7f7;
+    font-size: 80px;
+    font-family: "Montserrat";
+  
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-top: 5%; 
 }
 
 h2 {

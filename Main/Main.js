@@ -25,6 +25,10 @@ slides.forEach((slide) => {
   h2.style.textShadow = "2px 2px 10px rgba(0, 0, 0, 0.8)";
 });
 
+function openMenu() {
+  document.querySelector("nav ul").style.right = "0";
+}
+
 function closeMenu() {
-  document.getElementById("check").checked = false;
+  document.querySelector("nav ul").style.right = "-100%";
 }
